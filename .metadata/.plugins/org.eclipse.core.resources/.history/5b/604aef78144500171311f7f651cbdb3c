@@ -1,0 +1,13 @@
+var app = angular.module("myApp",['ngRoute','ngCookies']);
+app.config(function($routeProvider) {
+	$routeProvider
+	.when('/', {
+		templateUrl : 'Common/Home.html'	
+	})
+	.otherwise({
+		redirectTo : '/'
+	});
+});
+app.run( function ($rootScope, $location,$cookieStore, $http) {
+	
+});

@@ -91,5 +91,4 @@ public class JobApplicationController {
 		return new ResponseEntity<List<JobApplication>>(jobApplicationDAO.getAllJobApplication(),HttpStatus.OK);
 	}
 
-
 }
