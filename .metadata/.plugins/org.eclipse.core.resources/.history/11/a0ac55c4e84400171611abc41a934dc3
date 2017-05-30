@@ -1,0 +1,35 @@
+package com.jpro.studentsmeetbackend.dao.impl;
+
+import java.util.List;
+
+import com.jpro.studentsmeetbackend.dao.ReportChatDAO;
+import com.jpro.studentsmeetbackend.model.ReportUserChat;
+
+public class ReportChatDAOImpl implements ReportChatDAO {
+
+	public boolean createReportChat(ReportUserChat reportUserChat) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean removeReportChat(ReportUserChat reportUserChat) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean removeReportChat(long chat_reportId) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public List<ReportUserChat> getAllReportsChat() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public ReportUserChat getReportChatById(long chat_reportId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

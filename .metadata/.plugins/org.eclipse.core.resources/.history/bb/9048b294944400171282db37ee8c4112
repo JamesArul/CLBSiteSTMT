@@ -1,0 +1,42 @@
+package com.jpro.studentsmeetbackend.dao.impl;
+
+import java.util.Date;
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.springframework.stereotype.Repository;
+
+import com.jpro.studentsmeetbackend.dao.CommentDAO;
+import com.jpro.studentsmeetbackend.model.Comment;
+
+@Repository("commentDAO")
+@Transactional
+public class CommentDAOImpl implements CommentDAO {
+
+	public List<Comment> getAllComments(long blogID) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public boolean addComment(long blogID, String comment_UserId, String commentData) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean reportComment(long commentID) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean removeComment(long commentID) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public List<Comment> getAllReportedComments(long blogID) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

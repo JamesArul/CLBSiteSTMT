@@ -1,0 +1,59 @@
+package com.jpro.studentsmeetbackend.dao.impl;
+
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.hibernate.SessionFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Repository;
+
+import com.jpro.studentsmeetbackend.dao.ChatDAO;
+import com.jpro.studentsmeetbackend.model.Chat;
+import com.jpro.studentsmeetbackend.model.ChatMessage;
+
+@Repository("chatDAO")
+@Transactional
+public class ChatDAOImpl implements ChatDAO {
+	
+	private static final Logger log=LoggerFactory.getLogger(ChatDAOImpl.class);
+	
+	private SessionFactory sessionFactory;
+	
+	ChatDAOImpl(SessionFactory sessionFactory)
+	{
+		this.sessionFactory=sessionFactory;
+	}
+
+	public boolean createChat(Chat chat) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public List<Chat> getAllChat() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<ChatMessage> getAllChatMessage(long chatID) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public boolean removeChat(Chat chat) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean removeChat(long chatId) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public Chat getChatById(long chatID) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

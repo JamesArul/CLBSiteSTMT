@@ -1,0 +1,7 @@
+package com.jpro.studentsmeetbackend.dao;
+
+public interface ReportChatDAO {
+	
+	
+
+}

@@ -1,0 +1,10 @@
+package com.jpro.studentsmeetbackend.dao;
+
+import java.util.List;
+
+import com.jpro.studentsmeetbackend.model.Comment;
+
+public interface CommentDAO {
+
+	public List<Comment> getAllComments(long blogID);
+}

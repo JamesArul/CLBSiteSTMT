@@ -1,0 +1,11 @@
+package com.jpro.studentsmeetbackend.dao;
+
+import com.jpro.studentsmeetbackend.model.ReportUserChat;
+
+public interface ReportChatDAO {
+	
+	public boolean createReportChat(ReportUserChat reportUserChat);
+	
+	public boolean removeReportChat(ReportUserChat reportUserChat);
+
+}

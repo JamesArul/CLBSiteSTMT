@@ -1,0 +1,9 @@
+package com.jpro.studentsmeetbackend.dao;
+
+import com.jpro.studentsmeetbackend.model.Chat;
+
+public interface ChatDAO {
+	
+	public boolean createChat(Chat chat);
+
+}

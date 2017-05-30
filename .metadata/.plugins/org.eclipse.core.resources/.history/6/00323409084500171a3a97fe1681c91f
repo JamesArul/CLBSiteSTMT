@@ -1,0 +1,22 @@
+package com.jpro.studentsmeetcontrollerrest.controller;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.jpro.studentsmeetbackend.dao.ForumDAO;
+import com.jpro.studentsmeetbackend.model.Forum;
+
+@RestController
+public class ForumController {
+	
+private static final Logger log=LoggerFactory.getLogger(ForumController.class);
+	
+	@Autowired
+	private Forum forum;
+	
+	@Autowired
+	private ForumDAO forumDAO;
+
+}

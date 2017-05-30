@@ -1,0 +1,79 @@
+package com.jpro.studentsmeetbackend.dao.impl;
+
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.hibernate.SessionFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Repository;
+
+import com.jpro.studentsmeetbackend.dao.UserDAO;
+import com.jpro.studentsmeetbackend.model.Friend;
+import com.jpro.studentsmeetbackend.model.User;
+
+@Repository("userDAO")
+@Transactional
+public class UserDAOImpl implements UserDAO {
+	
+	private static final Logger log=LoggerFactory.getLogger(UserDAOImpl.class);
+	
+	private SessionFactory sessionFactory;
+	
+	UserDAOImpl(SessionFactory sessionFactory)
+	{
+		this.sessionFactory=sessionFactory;
+	}
+
+	public boolean createUser(User user) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean updateUser(User user) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public User getUserById(String userID) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<User> getAllUsers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Friend> getAllFriendsOfUser(String userID) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public boolean userValidate(String userID, String userPassword) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean sendFriendRequest(String senderID, String receiverId) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean acceptFriendRequest(String receiverId, String senderID) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean rejectRequest(String senderId, String receiverID) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean setUserOffline(String userID) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

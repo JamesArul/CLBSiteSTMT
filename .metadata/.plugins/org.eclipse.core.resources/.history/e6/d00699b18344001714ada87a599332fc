@@ -1,0 +1,45 @@
+package com.jpro.studentsmeetbackend.testcase;
+
+import static org.junit.Assert.*;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.jpro.studentsmeetbackend.dao.BlogDAO;
+import com.jpro.studentsmeetbackend.model.Blog;
+
+public class BlogTestCase {
+	
+	@Autowired
+	static Blog blog;
+	
+	@Autowired
+	static BlogDAO blogDAO;
+	
+	@Autowired
+	static AnnotationConfigApplicationContext context;
+
+	@BeforeClass
+	public static  void init()
+	{
+		context = new AnnotationConfigApplicationContext();
+		context.scan("com.jpro.studentsmeetbackend");
+		context.refresh();
+		blog = (Blog) context.getBean("blog");
+		blogDAO = (BlogDAO) context.getBean("blogDAO");
+	}
+	
+	@Test
+	public void createBlogTestCase()
+	{
+		blog.setBlogName("Welcome to STMT");
+		blog.setBlogCreatorId("US001");
+		blog.setBlogData("Hello welcome to Students Meet , a place where you can share your passions with fellow students. Get started by creating a blog or joining a chat, apply for jobs that suite you, and share your exciting ideas in our forums. And once again WELCOME");
+		blog.setBlogDescription("For the new Users of STMT");
+		boolean flag;
+	}
+
+
+}

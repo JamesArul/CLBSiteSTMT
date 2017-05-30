@@ -1,0 +1,43 @@
+package com.jpro.studentsmeet.model;
+
+import java.util.Date;
+
+import javax.persistence.Embeddable;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+
+@Embeddable
+public class ReportUserChat extends BaseDomain {
+	
+	private String userID;
+	
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss")
+	private Date msgDate;
+	
+	private String chatMsg;
+
+	public String getUserID() {
+		return userID;
+	}
+
+	public void setUserID(String userID) {
+		this.userID = userID;
+	}
+
+	public Date getMsgDate() {
+		return msgDate;
+	}
+
+	public void setMsgDate(Date msgDate) {
+		this.msgDate = msgDate;
+	}
+
+	public String getChatMsg() {
+		return chatMsg;
+	}
+
+	public void setChatMsg(String chatMsg) {
+		this.chatMsg = chatMsg;
+	}
+
+}

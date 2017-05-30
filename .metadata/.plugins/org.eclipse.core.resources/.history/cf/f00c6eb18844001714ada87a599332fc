@@ -1,0 +1,102 @@
+package com.jpro.studentsmeetbackend.model;
+
+import java.util.Date;
+import java.util.LinkedList;
+import java.util.List;
+
+import javax.persistence.CollectionTable;
+import javax.persistence.ElementCollection;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
+import org.springframework.stereotype.Component;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+
+
+@Entity
+@Component
+@Table(name="STMT_BLOG")
+public class Blog extends BaseDomain {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private long blogID;
+	
+	@Size(min=4,max=25)
+	private String blogName;
+	
+	@NotNull
+	private String blogCreatorId;
+	
+	private String blogData;
+	
+	private String blogDescription;
+	
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss")
+	private Date lastUpdateDate;
+
+	public long getBlogID() {
+		return blogID;
+	}
+
+	public void setBlogID(long blogID) {
+		this.blogID = blogID;
+	}
+
+	public String getBlogName() {
+		return blogName;
+	}
+
+	public void setBlogName(String blogName) {
+		this.blogName = blogName;
+	}
+
+	public String getBlogCreatorId() {
+		return blogCreatorId;
+	}
+
+	public void setBlogCreatorId(String blogCreatorId) {
+		this.blogCreatorId = blogCreatorId;
+	}
+
+	public String getBlogData() {
+		return blogData;
+	}
+
+	public void setBlogData(String blogData) {
+		this.blogData = blogData;
+	}
+
+	public String getBlogDescription() {
+		return blogDescription;
+	}
+
+	public void setBlogDescription(String blogDescription) {
+		this.blogDescription = blogDescription;
+	}
+
+	public Date getLastUpdateDate() {
+		return lastUpdateDate;
+	}
+
+	public void setLastUpdateDate(Date lastUpdateDate) {
+		this.lastUpdateDate = lastUpdateDate;
+	}
+
+	public List<Comment> getBlogComments() {
+		return blogComments;
+	}
+
+	public void setBlogComments(List<Comment> blogComments) {
+		this.blogComments = blogComments;
+	}
+
+}
