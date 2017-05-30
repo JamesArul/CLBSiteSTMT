@@ -2034,3 +2034,7 @@ java.net.UnknownHostException: java.sun.com
 2017-05-30 13:47:56,671 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-05-30 13:47:56,678 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-05-30 13:47:56,681 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-30 13:55:04,170 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 13:55:04,172 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-30 13:55:04,176 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 13:55:04,178 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources

@@ -14,5 +14,6 @@ app.config(function($routeProvider) {
 	});
 });
 app.run( function ($rootScope, $location,$cookieStore, $http) {
+	$rootScope.currentUser = $cookieStore.get('currentUser') || {};
 	
 });

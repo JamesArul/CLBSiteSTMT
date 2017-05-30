@@ -16,7 +16,8 @@ app.controller('UserController',['$scope','UserService','$location','$rootScope'
 		isOnline : '' ,
 		lastSeenOnline : '',
 		userRole : '',
-		userFriends : []
+		userFriends : [],
+		userImage : ''
 	}
 	this.currentUser ={
 			userID : '',
@@ -30,7 +31,8 @@ app.controller('UserController',['$scope','UserService','$location','$rootScope'
 			isOnline : '' ,
 			lastSeenOnline : '',
 			userRole : '',
-			userFriends : []
+			userFriends : [],
+			userImage : ''
 		}
 	this.users = [];
 	$scope.orderByMe = function(x) {
@@ -42,6 +44,7 @@ app.controller('UserController',['$scope','UserService','$location','$rootScope'
 		.then(
 				function(d) {
 					$location.path("/")
+					this.user=d;
 				},
 				function(errResponse) {
 					console.error('Error while creating user');
@@ -63,52 +66,6 @@ app.controller('UserController',['$scope','UserService','$location','$rootScope'
 				userFriends : []
 		};
 		$scope.myForm.$setPristine(); 
-	};
-	
-	this.login = function()
-	{
-		console.log("Login user");
-		UserService.loginUser(this.user)
-		.then(
-				function(d) {
-					this.user=d;
-					if(this.user.errorCode=="404")
-						{
-						alert("Invalid Login")
-						this.user.userID = "";
-						}
-					if(this.user.userRole=="ROLE_ADMIN")
-					{
-						console.log("Admin logged in")
-						$cookieStore.put('currentUser',this.user);
-						$http.defaults.headers.common['Authorization'] = 'Basic'+ $rootScope.currentUser;
-						$location.path('/')						
-					}
-					if(this.user.userRole=="ROLE_USER")
-						{
-						console.log("User logged in")
-					$cookieStore.put('currentUser',this.user);
-					$http.defaults.headers.common['Authorization'] = 'Basic'+ $rootScope.currentUser;
-					$location.path('/')
-						}
-				},
-				function(errResponse) {
-					console.error('Error while logging in user');
-				});
-	};
-	this.logout = function()
-	{
-		user=$cookieStore.get('currentUser');
-		console.log("Logout user");
-		UserService.logoutUser(user)
-		.then(
-			function(){
-				$cookieStore.remove('currentUser');
-				$location.path("/")
-			},
-			function(errResponse) {
-				console.error('Error while creating user');
-			});
 	};
 	this.submit = function() {
 		{
