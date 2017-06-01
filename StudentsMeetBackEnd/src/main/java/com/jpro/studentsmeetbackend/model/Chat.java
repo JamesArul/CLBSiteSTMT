@@ -27,6 +27,12 @@ public class Chat extends BaseDomain {
 	@ElementCollection(fetch=FetchType.EAGER)
 	@CollectionTable(name="STMT_CHAT_MESSAGES",joinColumns=@JoinColumn(name="chatId"))
 	private List<ChatMessage> chat_Messages=new LinkedList<ChatMessage>();
+	
+	private char isPrivateChat;
+	
+	private char reportChat;
+	
+	private String chatTopic;
 
 	public long getChatId() {
 		return chatId;
@@ -42,6 +48,30 @@ public class Chat extends BaseDomain {
 
 	public void setChat_Messages(List<ChatMessage> chat_Messages) {
 		this.chat_Messages = chat_Messages;
+	}
+
+	public char getIsPrivateChat() {
+		return isPrivateChat;
+	}
+
+	public void setIsPrivateChat(char isPrivateChat) {
+		this.isPrivateChat = isPrivateChat;
+	}
+
+	public char getReportChat() {
+		return reportChat;
+	}
+
+	public void setReportChat(char reportChat) {
+		this.reportChat = reportChat;
+	}
+
+	public String getChatTopic() {
+		return chatTopic;
+	}
+
+	public void setChatTopic(String chatTopic) {
+		this.chatTopic = chatTopic;
 	}
 	
 }

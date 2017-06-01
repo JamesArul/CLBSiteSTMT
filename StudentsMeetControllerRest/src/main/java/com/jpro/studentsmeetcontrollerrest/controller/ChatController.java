@@ -59,7 +59,7 @@ private static final Logger log=LoggerFactory.getLogger(ChatController.class);
 		return new ResponseEntity<List<ChatMessage>>(chatDAO.getAllChatMessage(chatID),HttpStatus.OK);
 	}
 	
-	@GetMapping("/getAllChatMessage/{chatID}")
+	@GetMapping("/getChatById/{chatID}")
 	public ResponseEntity<Chat> getChatById(@PathVariable("chatID") long chatID){
 		log.debug("Getting all chat messages");
 		return new ResponseEntity<Chat>(chatDAO.getChatById(chatID),HttpStatus.OK);

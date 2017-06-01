@@ -21,12 +21,12 @@ public class ReportUserChat extends BaseDomain {
 	private long chatID;
 	
 	private String userID;
-	
+	/*
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss")
 	private Date msgDate;
 	
 	private String chatMsg;
-
+*/
 	public long getChat_reportId() {
 		return chat_reportId;
 	}
@@ -50,7 +50,7 @@ public class ReportUserChat extends BaseDomain {
 	public void setUserID(String userID) {
 		this.userID = userID;
 	}
-
+/*
 	public Date getMsgDate() {
 		return msgDate;
 	}
@@ -66,5 +66,5 @@ public class ReportUserChat extends BaseDomain {
 	public void setChatMsg(String chatMsg) {
 		this.chatMsg = chatMsg;
 	}
-
+*/
 }

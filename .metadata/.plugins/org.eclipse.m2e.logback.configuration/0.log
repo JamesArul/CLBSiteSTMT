@@ -2038,3 +2038,879 @@ java.net.UnknownHostException: java.sun.com
 2017-05-30 13:55:04,172 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-05-30 13:55:04,176 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-05-30 13:55:04,178 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-30 14:24:53,869 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 14:24:53,916 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-30 14:24:53,916 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 14:24:53,932 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-30 14:25:08,620 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 14:25:08,620 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-30 14:25:08,620 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 14:25:08,620 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-30 14:29:17,055 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 14:29:17,055 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-30 14:29:17,055 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 14:29:17,055 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-30 14:59:26,230 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 14:59:26,260 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 14:59:26,263 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 14:59:26,263 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 15:20:32,674 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 15:20:33,117 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-30 15:20:33,379 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 15:20:33,382 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-30 15:22:07,088 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 15:22:07,094 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-30 15:22:07,096 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 15:22:07,098 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-30 19:41:37,446 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 19:41:37,946 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-30 19:41:37,952 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 19:41:37,953 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-30 20:03:48,451 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:03:48,451 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:03:48,451 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:03:48,451 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:04:48,465 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:04:48,465 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:04:48,465 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:04:48,465 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:12:30,960 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:12:30,960 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:12:30,960 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:12:30,960 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:12:56,489 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:12:56,489 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:12:56,489 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:12:56,489 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:13:09,396 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:13:09,396 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:13:09,412 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:13:09,412 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:13:18,381 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:13:18,381 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:13:18,381 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:13:18,381 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:15:00,537 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:15:00,537 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:15:00,537 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:15:00,537 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:15:07,652 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:15:07,652 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:15:07,668 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:15:07,668 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:16:22,548 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:16:22,548 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:16:22,548 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:16:22,548 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:18:31,452 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:18:31,452 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:18:31,452 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:18:31,452 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:23:03,902 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:23:03,902 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:23:03,918 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:23:03,918 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:26:03,901 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:26:03,901 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:26:03,901 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:26:03,901 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:26:16,051 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:26:16,051 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:26:16,051 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:26:16,051 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:34:04,146 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:34:04,146 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:34:04,146 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:34:04,146 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:35:40,266 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:35:40,266 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:35:40,266 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:35:40,266 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:36:21,893 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:36:21,893 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:36:21,893 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:36:21,893 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:36:43,004 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:36:43,004 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:36:43,004 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:36:43,004 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:37:32,491 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:37:32,491 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:37:32,491 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:37:32,491 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:38:14,764 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:38:14,764 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:38:14,779 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:38:14,779 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:38:53,231 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:38:53,231 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:38:53,231 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:38:53,231 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:38:59,372 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:38:59,372 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:38:59,372 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:38:59,372 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:42:28,590 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:42:28,590 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:42:28,592 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:42:28,592 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:43:29,006 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:43:29,006 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:43:29,008 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:43:29,008 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:45:29,044 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:45:29,044 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:45:29,060 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:45:29,060 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:46:49,344 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:46:49,344 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:46:49,344 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:46:49,344 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 20:48:49,438 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:48:49,438 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 20:48:49,438 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 20:48:49,438 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 22:03:50,031 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 22:03:50,313 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-30 22:03:50,313 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 22:03:50,313 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-30 22:21:17,631 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 22:21:17,714 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-30 22:21:17,717 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 22:21:17,718 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-30 22:22:27,139 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 22:22:27,140 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 22:22:27,142 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 22:22:27,142 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 22:25:33,788 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 22:25:33,793 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-30 22:25:33,795 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 22:25:33,796 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-30 22:25:40,397 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 22:25:40,398 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-30 22:25:40,400 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 22:25:40,401 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-30 22:36:01,436 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 22:36:01,437 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 22:36:01,438 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 22:36:01,438 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-30 22:36:58,308 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 22:36:58,309 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-30 22:36:58,310 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 22:36:58,311 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 10:46:39,970 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 10:46:40,013 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-31 10:46:40,017 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 10:46:40,018 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-31 10:47:10,138 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 10:47:10,139 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 10:47:10,141 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 10:47:10,141 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 10:53:49,359 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 10:53:49,359 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 10:53:49,360 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 10:53:49,360 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 10:58:24,998 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 10:58:24,999 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 10:58:25,001 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 10:58:25,002 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 10:59:21,108 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 10:59:21,108 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 10:59:21,110 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 10:59:21,110 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 10:59:42,938 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 10:59:42,938 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 10:59:42,940 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 10:59:42,940 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:03:32,117 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 11:03:32,130 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-31 11:03:32,132 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 11:03:32,133 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-31 11:05:10,131 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:05:10,132 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:05:10,136 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:05:10,137 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:06:07,824 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:06:07,824 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:06:07,827 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:06:07,827 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:06:13,263 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:06:13,263 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:06:13,265 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:06:13,265 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:07:06,096 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:07:06,096 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:07:06,099 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:07:06,099 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:07:11,077 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:07:11,077 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:07:11,079 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:07:11,079 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:09:14,499 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:09:14,500 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:09:14,502 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:09:14,502 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:09:29,180 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:09:29,184 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:09:29,184 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:09:29,184 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:12:37,213 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:12:37,214 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:12:37,218 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:12:37,219 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:12:53,765 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:12:53,765 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:12:53,768 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:12:53,768 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:13:31,054 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:13:31,054 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:13:31,056 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:13:31,056 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:18:48,264 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:18:48,264 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:18:48,266 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:18:48,267 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:18:51,591 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:18:51,591 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:18:51,593 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:18:51,593 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:19:22,905 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:19:22,906 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:19:22,907 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:19:22,907 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:20:09,008 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:20:09,008 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:20:09,009 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:20:09,010 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:22:33,058 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:22:33,058 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:22:33,059 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:22:33,059 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:22:36,572 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:22:36,573 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:22:36,573 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:22:36,574 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:22:43,926 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:22:43,926 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:22:43,928 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:22:43,928 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:22:57,642 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:22:57,642 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:22:57,643 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:22:57,643 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:23:03,830 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:23:03,830 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:23:03,831 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:23:03,831 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:23:12,153 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:23:12,153 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:23:12,154 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:23:12,154 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:24:12,465 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:24:12,465 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:24:12,467 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:24:12,467 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:25:02,259 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:25:02,260 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:25:02,261 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:25:02,261 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:25:22,939 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:25:22,939 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:25:22,940 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:25:22,940 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:26:29,166 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:26:29,166 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:26:29,167 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:26:29,168 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:26:38,075 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:26:38,075 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:26:38,076 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:26:38,076 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:27:31,961 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:27:31,961 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:27:31,962 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:27:31,962 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:27:37,913 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:27:37,913 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:27:37,914 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:27:37,915 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:27:52,672 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:27:52,673 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:27:52,674 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:27:52,674 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:29:03,747 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:29:03,747 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:29:03,749 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:29:03,749 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:29:48,944 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:29:48,944 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:29:48,946 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:29:48,946 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:40:25,863 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:40:25,863 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:40:25,865 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:40:25,865 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:40:57,580 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:40:57,580 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:40:57,581 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:40:57,581 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:41:08,048 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:41:08,048 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:41:08,049 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:41:08,049 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:42:06,684 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:42:06,684 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:42:06,695 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:42:06,695 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:42:48,814 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:42:48,814 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:42:48,815 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:42:48,815 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:43:59,775 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:43:59,775 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:43:59,777 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:43:59,777 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:45:11,868 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:45:11,868 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:45:11,869 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:45:11,869 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:45:18,459 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:45:18,460 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:45:18,461 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:45:18,461 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:46:07,261 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:46:07,262 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:46:07,263 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:46:07,263 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:46:57,811 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:46:57,811 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:46:57,812 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:46:57,812 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:47:00,831 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:47:00,831 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:47:00,832 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:47:00,833 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:48:11,933 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:48:11,934 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:48:11,934 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:48:11,935 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:49:15,076 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:49:15,076 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:49:15,077 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:49:15,077 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:50:37,944 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:50:37,944 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:50:37,945 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:50:37,945 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:53:54,495 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:53:54,495 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:53:54,496 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:53:54,497 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:54:05,526 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:54:05,526 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:54:05,527 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:54:05,527 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 11:59:25,980 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:59:25,980 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 11:59:25,982 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:59:25,982 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:00:40,540 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:00:40,540 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:00:40,541 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:00:40,541 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:02:23,420 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:02:23,421 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:02:23,422 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:02:23,422 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:02:27,043 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:02:27,044 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:02:27,045 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:02:27,045 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:03:14,728 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:03:14,729 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:03:14,730 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:03:14,730 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:03:17,140 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:03:17,140 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:03:17,141 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:03:17,141 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:03:24,422 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:03:24,423 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:03:24,424 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:03:24,424 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:03:38,781 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:03:38,782 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:03:38,783 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:03:38,783 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:05:40,702 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:05:40,702 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:05:40,703 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:05:40,704 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:07:42,132 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:07:42,133 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:07:42,134 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:07:42,134 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:09:03,420 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:09:03,420 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:09:03,422 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:09:03,422 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:09:58,891 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:09:58,891 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:09:58,892 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:09:58,892 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:10:10,190 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:10:10,190 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:10:10,191 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:10:10,191 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:10:24,313 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:10:24,313 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:10:24,315 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:10:24,315 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:14:35,761 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:14:35,761 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:14:35,762 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:14:35,762 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:20:44,443 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:20:44,444 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:20:44,446 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:20:44,447 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:23:26,888 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:23:26,888 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:23:26,889 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:23:26,889 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:25:01,519 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:25:01,519 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:25:01,520 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:25:01,520 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:26:31,768 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:26:31,769 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:26:31,773 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:26:31,774 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:26:47,987 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:26:47,988 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:26:47,989 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:26:47,989 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:26:54,774 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:26:54,774 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:26:54,775 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:26:54,776 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:27:11,527 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:27:11,527 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:27:11,528 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:27:11,528 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:27:37,627 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:27:37,628 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:27:37,630 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:27:37,630 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:28:13,227 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:28:13,227 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:28:13,229 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:28:13,229 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:35:03,254 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:35:03,254 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:35:03,256 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:35:03,256 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:35:30,517 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:35:30,517 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:35:30,518 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:35:30,518 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:35:47,466 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:35:47,467 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:35:47,468 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:35:47,468 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:35:58,163 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:35:58,164 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:35:58,166 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:35:58,166 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:36:10,307 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:36:10,307 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:36:10,308 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:36:10,308 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:36:13,971 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:36:13,972 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:36:13,972 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:36:13,973 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:36:27,954 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:36:27,954 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:36:27,955 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:36:27,956 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:36:59,106 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:36:59,106 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:36:59,107 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:36:59,107 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:37:02,025 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:37:02,025 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:37:02,028 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:37:02,028 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:37:05,360 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:37:05,360 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:37:05,361 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:37:05,361 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:37:25,330 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:37:25,330 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:37:25,331 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:37:25,332 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:37:28,236 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:37:28,236 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:37:28,237 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:37:28,238 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:37:40,091 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:37:40,092 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:37:40,093 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:37:40,093 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:37:53,119 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:37:53,119 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:37:53,120 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:37:53,120 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:39:18,069 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:39:18,070 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:39:18,071 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:39:18,071 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:39:21,410 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:39:21,410 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:39:21,411 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:39:21,411 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:39:35,628 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:39:35,628 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:39:35,629 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:39:35,629 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:42:07,108 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:42:07,108 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:42:07,110 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:42:07,110 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:42:18,243 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:42:18,243 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:42:18,244 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:42:18,244 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:42:55,564 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:42:55,565 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:42:55,565 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:42:55,565 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:43:03,160 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:43:03,160 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:43:03,161 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:43:03,161 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:43:52,282 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:43:52,282 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:43:52,283 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:43:52,284 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:44:58,514 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:44:58,514 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:44:58,515 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:44:58,515 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:47:48,388 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:47:48,388 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:47:48,390 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:47:48,391 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:47:58,185 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:47:58,186 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:47:58,186 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:47:58,186 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:48:04,161 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:48:04,161 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:48:04,162 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:48:04,162 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:48:42,618 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:48:42,618 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:48:42,619 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:48:42,619 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:50:37,852 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:50:37,852 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:50:37,853 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:50:37,853 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:52:18,484 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:52:18,484 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:52:18,486 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:52:18,487 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:54:19,933 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:54:19,933 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:54:19,934 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:54:19,934 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:54:39,553 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:54:39,554 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:54:39,557 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:54:39,557 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:55:13,539 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:55:13,540 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:55:13,540 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:55:13,541 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:56:13,571 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:56:13,572 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:56:13,573 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:56:13,573 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:57:27,097 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:57:27,098 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:57:27,100 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:57:27,100 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:57:59,180 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:57:59,180 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:57:59,181 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:57:59,181 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:58:26,260 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:58:26,260 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:58:26,261 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:58:26,261 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:59:47,175 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:59:47,175 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:59:47,176 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:59:47,177 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 12:59:56,420 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:59:56,420 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 12:59:56,421 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 12:59:56,421 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:00:58,277 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:00:58,277 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:00:58,278 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:00:58,278 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:02:29,093 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:02:29,093 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:02:29,094 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:02:29,094 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:04:51,076 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:04:51,076 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:04:51,077 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:04:51,077 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:06:44,752 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:06:44,752 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:06:44,753 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:06:44,753 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:07:25,069 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:07:25,069 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:07:25,071 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:07:25,071 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:07:48,619 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:07:48,619 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:07:48,620 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:07:48,620 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:07:52,354 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:07:52,354 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:07:52,354 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:07:52,355 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:08:06,991 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:08:06,991 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:08:06,992 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:08:06,992 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:08:25,868 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:08:25,868 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:08:25,869 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:08:25,869 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:08:28,413 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:08:28,414 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:08:28,415 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:08:28,415 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:09:07,798 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:09:07,798 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:09:07,799 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:09:07,799 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:10:12,978 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:10:12,978 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:10:12,979 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:10:12,980 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:13:35,303 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:13:35,304 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:13:35,305 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:13:35,305 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:14:23,733 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:14:23,733 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:14:23,734 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:14:23,734 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:15:27,974 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:15:27,974 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:15:27,975 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:15:27,975 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:17:24,354 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:17:24,355 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:17:24,356 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:17:24,356 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:17:29,021 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:17:29,022 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:17:29,024 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:17:29,024 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:17:37,683 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:17:37,683 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:17:37,684 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:17:37,684 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:17:43,744 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:17:43,744 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:17:43,745 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:17:43,745 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:18:02,506 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:18:02,507 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:18:02,508 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:18:02,508 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:19:49,432 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:19:49,432 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:19:49,433 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:19:49,433 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:22:05,908 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:22:05,908 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:22:05,909 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:22:05,909 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:23:07,967 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:23:07,967 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:23:07,968 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:23:07,968 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:23:48,995 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:23:48,995 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:23:48,996 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:23:48,997 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:24:07,893 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:24:07,893 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:24:07,894 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:24:07,895 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:24:37,850 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:24:37,851 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:24:37,851 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:24:37,851 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:24:48,916 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:24:48,917 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:24:48,918 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:24:48,918 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:28:53,014 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:28:53,015 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:28:53,015 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:28:53,016 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:29:13,426 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:29:13,426 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:29:13,427 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:29:13,427 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:32:24,404 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:32:24,405 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:32:24,406 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:32:24,406 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:33:29,140 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:33:29,141 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:33:29,142 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:33:29,142 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:33:34,133 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:33:34,133 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:33:34,133 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:33:34,133 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:33:50,616 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:33:50,617 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:33:50,618 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:33:50,618 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:34:08,382 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:34:08,382 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:34:08,383 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:34:08,383 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:34:43,781 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:34:43,782 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:34:43,782 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:34:43,782 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:34:46,219 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:34:46,219 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:34:46,219 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:34:46,220 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:34:52,369 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:34:52,369 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:34:52,370 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:34:52,370 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:37:14,450 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:37:14,451 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:37:14,451 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:37:14,452 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:37:19,496 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:37:19,496 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:37:19,497 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:37:19,497 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:37:25,993 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:37:25,993 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:37:25,994 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:37:25,994 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:37:38,563 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:37:38,564 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:37:38,565 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:37:38,565 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:37:41,145 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:37:41,145 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:37:41,146 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:37:41,146 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:37:49,156 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:37:49,156 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:37:49,157 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:37:49,157 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:37:54,776 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:37:54,776 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:37:54,777 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:37:54,777 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:39:36,767 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:39:36,767 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:39:36,768 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:39:36,768 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:40:34,612 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:40:34,613 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:40:34,614 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:40:34,614 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:40:54,140 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:40:54,140 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:40:54,141 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:40:54,141 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:41:02,749 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:41:02,750 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:41:02,751 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:41:02,751 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:41:05,695 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:41:05,695 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:41:05,696 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:41:05,696 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:41:22,307 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:41:22,307 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:41:22,307 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:41:22,307 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:41:48,223 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:41:48,224 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:41:48,225 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:41:48,225 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 13:43:07,837 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:43:07,837 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 13:43:07,838 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 13:43:07,838 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 16:49:25,174 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:49:25,218 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-31 16:49:25,221 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:49:25,222 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-31 16:51:24,008 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 16:51:24,010 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 16:51:24,015 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 16:51:24,015 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 16:51:51,532 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 16:51:51,532 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 16:51:51,536 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 16:51:51,536 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 16:52:13,439 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 16:52:13,439 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 16:52:13,441 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 16:52:13,442 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 16:54:42,153 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 16:54:42,153 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 16:54:42,155 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 16:54:42,155 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 16:54:53,179 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 16:54:53,179 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 16:54:53,181 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 16:54:53,181 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 16:57:17,719 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 16:57:17,720 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-05-31 16:57:17,721 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 16:57:17,722 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-05-31 17:00:02,869 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 17:00:02,885 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-31 17:00:02,888 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 17:00:02,889 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-31 17:01:30,437 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 17:01:30,439 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-31 17:01:30,441 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 17:01:30,442 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-31 17:04:39,820 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 17:04:39,822 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-31 17:04:39,826 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 17:04:39,827 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-31 17:05:55,842 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 17:05:55,846 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-31 17:05:55,850 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 17:05:55,852 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-05-31 18:01:26,142 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 18:01:26,144 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-31 18:01:26,146 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 18:01:26,147 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources

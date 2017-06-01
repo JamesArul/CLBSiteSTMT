@@ -1,0 +1,90 @@
+<style>
+.container {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.container a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+<div ng-controller="UserController as ctrl">
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+  <div class="navbar-header">
+     <a class="navbar-brand" href="#">Students Meet</a>
+  </div>
+  <ul class="nav navbar-nav">
+      <li class="active"><a href="#!/goUserHome">Home</a></li>
+      <div class="dropdown">
+      <button class="dropbtn">Blog</button>
+    	<div class="dropdown-content">
+      	 <a href="#!/goBlogCreate">Create Blog</a>
+      	 <a href="#">View Blog</a>
+     	 <a href="#">Update My Blog</a>
+    	</div>
+      </div>
+      <div class="dropdown">
+      <button class="dropbtn">Forum</button>
+    	<div class="dropdown-content">
+      	 <a href="#">Create Forum</a>
+      	 <a href="#">View Forum</a>
+    	</div>
+      </div>
+      <li><a href="#">Chat</a></li>
+      <li><a href="#">Job</a></li>
+   </ul>
+    <button class="btn btn-danger navbar-btn" ng-click="ctrl.logout()">Logout</button>
+</div>
+</nav>
+</div>

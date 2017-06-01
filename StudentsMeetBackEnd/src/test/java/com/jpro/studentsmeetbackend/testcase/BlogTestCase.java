@@ -38,17 +38,12 @@ public class BlogTestCase {
 		blogDAO = (BlogDAO) context.getBean("blogDAO");
 	}
 	
-	@Test
-	public void hello(){
-		System.out.println("Welcome to STMT");
-	}
-	
 	//@Test
 	public void createBlogTestCase()
 	{
 		blog.setBlogName("Welcome to STMT");
 		blog.setBlogCreatorId("US001");
-		//blog.setBlogData("Hello welcome to Students Meet , a place where you can share your passions with fellow students. Get started by creating a blog or joining a chat, apply for jobs that suite you, and share your exciting ideas in our forums. And once again WELCOME");
+		blog.setBlogData("Hello welcome to Students Meet , a place where you can share your passions with fellow students. Get started by creating a blog or joining a chat, apply for jobs that suite you, and share your exciting ideas in our forums. And once again WELCOME");
 		blog.setBlogDescription("For the new Users of STMT");
 		boolean flag=blogDAO.createBlog(blog);
 		Assert.assertEquals("createBlogTestCase",true,flag);

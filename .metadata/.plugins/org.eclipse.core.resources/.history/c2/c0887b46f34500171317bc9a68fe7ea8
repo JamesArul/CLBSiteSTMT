@@ -1,0 +1,40 @@
+package com.jpro.studentsmeetbackend.testcase;
+
+import static org.junit.Assert.*;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.jpro.studentsmeetbackend.dao.ReportChatDAO;
+import com.jpro.studentsmeetbackend.model.ReportUserChat;
+
+
+public class ReportChatDAOTestCase {
+	
+	@Autowired
+	static ReportUserChat reportUserChat;
+	
+	@Autowired
+	static ReportChatDAO reportChatDAO;
+	
+	@Autowired
+	static AnnotationConfigApplicationContext context;
+
+	@BeforeClass
+	public static  void init()
+	{
+		context = new AnnotationConfigApplicationContext();
+		context.scan("com.jpro.studentsmeetbackend");
+		context.refresh();
+		reportUserChat = (ReportUserChat) context.getBean("reportUserChat");
+		reportChatDAO = (ReportChatDAO) context.getBean("reportChatDAO");
+	}
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

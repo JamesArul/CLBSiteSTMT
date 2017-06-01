@@ -1,0 +1,30 @@
+<div ng-controller="UserController as ctrl">
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+  <div class="navbar-header">
+     <a class="navbar-brand" href="#">Students Meet</a>
+  </div>
+  <ul class="nav navbar-nav">
+      <li class="active"><a href="#!/goUserHome">Home</a></li>
+      <div class="dropdown">
+      <button class="dropbtn">Blog</button>
+    	<div class="dropdown-content">
+      	 <a href="#">Create Blog</a>
+      	 <a href="#">View Blog</a>
+     	 <a href="#">Update My Blog</a>
+    	</div>
+      </div>
+      <div class="dropdown">
+      <button class="dropbtn">Forum</button>
+    	<div class="dropdown-content">
+      	 <a href="#">Create Forum</a>
+      	 <a href="#">View Forum</a>
+    	</div>
+      </div>
+      <li><a href="#!/goLogin">Chat</a></li>
+      <li><a href="#!/goLogin">Job</a></li>
+   </ul>
+    <button class="btn btn-danger navbar-btn" ng-click="ctrl.logout()">Logout</button>
+</div>
+</nav>
+</div>

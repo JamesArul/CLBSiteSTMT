@@ -18,5 +18,11 @@ public interface ChatDAO {
 	public boolean removeChat(long chatId);
 	
 	public Chat getChatById(long chatID);
+	
+	public boolean addChatMessage(long chatID,ChatMessage chatMessage);
+	
+	public boolean reportChat(long chatID);
+	
+	public List<Chat> getAllReportedChats();
 
 }

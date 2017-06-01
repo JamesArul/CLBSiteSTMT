@@ -82,7 +82,7 @@ public class BlogController {
 		}
 	}
 
-	@PostMapping("/getBlogById/{blogID}")
+	@GetMapping("/getBlogById/{blogID}")
 	public ResponseEntity<Blog> getBlogById(@PathVariable("blogID") long blogID){
 		log.debug("Getting blod with blogID:"+blogID);
 		blog=blogDAO.getBlogById(blogID);

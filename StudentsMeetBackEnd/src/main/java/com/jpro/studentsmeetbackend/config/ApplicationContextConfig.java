@@ -64,12 +64,12 @@ private static final Logger logger=LoggerFactory.getLogger(ApplicationContextCon
 		//connectionProperties.put("hibernate.hbm2ddl.auto", "create");
 		connectionProperties.put("hibernate.show_sql", "true");
 		sessionBuilder.addProperties(connectionProperties);
+		sessionBuilder.addAnnotatedClass(ForumMessage.class);
 		sessionBuilder.addAnnotatedClass(User.class);
 		sessionBuilder.addAnnotatedClass(ReportUserChat.class);
 		sessionBuilder.addAnnotatedClass(Blog.class);
 		sessionBuilder.addAnnotatedClass(Chat.class);
 		sessionBuilder.addAnnotatedClass(Forum.class);
-		sessionBuilder.addAnnotatedClass(ForumMessage.class);
 		sessionBuilder.addAnnotatedClass(Job.class);
 		sessionBuilder.addAnnotatedClass(JobApplication.class);
 		sessionBuilder.addAnnotatedClass(Comment.class);

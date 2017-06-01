@@ -1,5 +1,6 @@
 package com.jpro.studentsmeetbackend.dao.impl;
 
+import java.util.Date;
 import java.util.List;
 
 import javax.transaction.Transactional;
@@ -70,6 +71,37 @@ public class ChatDAOImpl implements ChatDAO {
 
 	public Chat getChatById(long chatID) {
 		return sessionFactory.getCurrentSession().get(Chat.class,chatID);
+	}
+
+	public boolean addChatMessage(long chatID,ChatMessage chatMessage) {
+		try{
+			chatMessage.setMsgDate(new Date());
+			Chat chat=getChatById(chatID);
+			chat.getChat_Messages().add(chatMessage);
+			sessionFactory.getCurrentSession().update(chat);
+			return true;
+		}
+		catch(Exception e){
+			System.err.println(e);
+			return false;
+		}
+	}
+
+	public boolean reportChat(long chatID) {
+		try{
+			Chat chat=getChatById(chatID);
+			chat.setReportChat('Y');
+			sessionFactory.getCurrentSession().update(chat);
+			return true;
+		}
+		catch(Exception e){
+			System.err.println(e);
+			return false;
+		}
+	}
+
+	public List<Chat> getAllReportedChats() {
+		return sessionFactory.getCurrentSession().createQuery("from Chat where reportChat='Y'").list();
 	}
 
 }

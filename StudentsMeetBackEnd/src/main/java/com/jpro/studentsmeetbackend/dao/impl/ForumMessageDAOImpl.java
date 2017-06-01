@@ -1,5 +1,6 @@
 package com.jpro.studentsmeetbackend.dao.impl;
 
+import java.util.Date;
 import java.util.List;
 
 import javax.transaction.Transactional;
@@ -27,6 +28,8 @@ public class ForumMessageDAOImpl implements ForumMessageDAO {
 
 	public boolean createForumMessage(ForumMessage forumMessgae) {
 		try{
+			forumMessgae.setMsgTime(new Date());
+			forumMessgae.setReportMessage('N');
 			sessionFactory.getCurrentSession().save(forumMessgae);
 			return true;
 		}

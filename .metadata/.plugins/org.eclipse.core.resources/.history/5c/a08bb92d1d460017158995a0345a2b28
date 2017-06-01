@@ -1,0 +1,5 @@
+<div ng-include="'Common/CommonHeader.html'"></div>
+<h2><center>Welcome User</center></h2>
+<div ng-controller="USerController as ctrl">
+   <button class="btn btn-danger navbar-btn" onclick="$rootScope.logout()">Logout</button>
+</div>
