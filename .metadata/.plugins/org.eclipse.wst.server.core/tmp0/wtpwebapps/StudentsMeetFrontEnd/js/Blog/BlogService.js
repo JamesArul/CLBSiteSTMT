@@ -1,7 +1,7 @@
 'use strict';
 app.service('BlogService', ['$http', '$q','$rootScope', function($http, $q,$rootScope){
 	console.log("BlogService...")
-	var BASE_URL='http://localhost:8081/StudentsMeetControllerRest/'
+	var BASE_URL='http://localhost:8081/StudentsMeetControllerRest/';
 		return {
 		createBlog : function(blog){
 			console.log("Creating blog in BlogService..BlogService")

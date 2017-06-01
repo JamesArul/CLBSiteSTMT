@@ -44,7 +44,7 @@ app.config(function($routeProvider) {
 		redirectTo : '/'
 	});
 });
-app.run( function ($rootScope, $location, $cookies, $cookieStore, $http,UserService) {
+app.run( function ($rootScope, $location, $cookies, $cookieStore, $http, UserService) {
 	
 	$rootScope.$on('$locationChangeStart', function (event, next, current) {
 		console.log("$locationChangeStart")		
@@ -89,7 +89,7 @@ app.run( function ($rootScope, $location, $cookies, $cookieStore, $http,UserServ
 	    	$rootScope.notLogged=false;
 	    	$rootScope.isAdmin=false;
 	    	if(isAdminPage===0){
-	    		alert("You do not access to this operatiob")
+	    		alert("You do not access to this operation")
 	    		$location.path('/goUserHome');
 	    	}
 	    	}

@@ -75,7 +75,7 @@ app.controller('UserController',['$scope','UserService','$cookies','$location','
 		this.reset();
 	};
 	this.login =function(){
-		console.log('Performing Login operations');
+		console.log('Performing Login operations');		
 		UserService.login(this.user)
 		.then(
 				function(d){

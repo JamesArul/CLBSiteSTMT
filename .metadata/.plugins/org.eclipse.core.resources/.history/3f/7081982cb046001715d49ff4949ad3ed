@@ -1,0 +1,13 @@
+<center>
+<div class="row">
+<div class="col-sm-4">
+<button type="button" class="btn btn-success" onclick="manageCategories()">Create Blog</button>
+</div>
+<div class="col-sm-4">
+<button type="button" class="btn btn-success" onclick="manageProducts()">View Blogs</button>
+</div>
+<div class="col-sm-4">
+<button type="button" class="btn btn-success" onclick="manageSuppliers()">Update My Blogs</button>
+</div>
+</div>
+</center>

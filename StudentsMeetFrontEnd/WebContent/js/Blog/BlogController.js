@@ -1,6 +1,6 @@
 'user strict';
 app.controller('BlogController',['$scope','BlogService','$cookies','$location','$rootScope','$cookieStore','$http',
-	function($scope, BlogService,$cookies, $location, $rootScope,$cookieStore, $http) {
+	function($scope, BlogService, $cookies, $location, $rootScope, $cookieStore, $http) {
 	console.log("Inside BlogController")
 	this.blog={
 		blogID :'',
@@ -12,6 +12,15 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 		comments : []
 	};
 	this.editblog={
+			blogID :'',
+			blogName : '',
+			blogCreatorId : '',
+			blogData :'',
+			blogDescription : '',
+			lastUpdateDate : '',
+			comments : []
+		};
+	$rootScope.blog={
 			blogID :'',
 			blogName : '',
 			blogCreatorId : '',
@@ -38,6 +47,7 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 			userFriends : [],
 			userImage : ''
 		};
+	$rootScope.blogs=[];
 	this.blogs=[];
 	this.createBlog=function(){
 		console.log("Creating Blog");
@@ -46,7 +56,7 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 		BlogService.createBlog(this.blog)
 		.then(
 				function(d) {
-					this.getAllBlog();
+					$rootScope.getBlogs();
 					$rootScope.blog=d;
 					$location.path("/goBlogViewAll")					
 				},
@@ -54,6 +64,17 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 					console.error('Error while creating blog');
 				});
 	};
+	this.geBlogs=function(){
+		console.log("Getting all blogs");
+		BlogService.getAllBlog()
+		.then(
+				function(d){
+					$rootScope.blogs=d;
+				},
+				function(errResponse){
+					console.error('Error while getting all blogs');
+				});
+	}
 	this.getAllBlog=function(){
 		console.log("Getting all blogs");
 		BlogService.getAllBlog()
