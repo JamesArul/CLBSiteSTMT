@@ -28,6 +28,18 @@ app.config(function($routeProvider) {
 		templateUrl: 'Blog/BlogView.html',
 		controller : 'BlogController'
 	})
+	.when('/goBlogViewAll',{
+		templateUrl : 'Blog/BlogViewAll.html',
+		controller : 'BlogController'
+	})
+	.when('/goBlogsUser',{
+		templateUrl:'Blog/BlogUpdate.html',
+		controller : 'BlogController'
+	})
+	.when('/goBlogEdit',{
+		templateUrl : 'Blog/BlogEdit.html',
+		controller : 'BlogController'
+	})
 	.otherwise({
 		redirectTo : '/'
 	});
@@ -35,8 +47,7 @@ app.config(function($routeProvider) {
 app.run( function ($rootScope, $location, $cookies, $cookieStore, $http,UserService) {
 	
 	$rootScope.$on('$locationChangeStart', function (event, next, current) {
-		console.log("$locationChangeStart")
-		//var currentUser = angular.toJson($cookies.get('currentUser')) || {};
+		console.log("$locationChangeStart")		
 		$rootScope.currentUser= $cookieStore.get('currentUser') || {};
 		var userPage=['/goUserHome']
 		var adminPage=[]
@@ -50,6 +61,8 @@ app.run( function ($rootScope, $location, $cookies, $cookieStore, $http,UserServ
 	    if(angular.isUndefined(isLoggedIn))
 	        	{
 	    			  $rootScope.notLogged=true;
+	    			  $rootScope.isUser=false;
+	    			  $rootScope.isAdmin=false;
 	    			  if(isUserPage===0 || isAdminPage ===0)
 	    				  {
 		        	  console.log("Navigating to login page:")

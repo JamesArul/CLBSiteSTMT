@@ -1,0 +1,22 @@
+<div ng-controller="BlogController as btrl">
+<div class="container">
+  <h2>Available Blogs</h2>
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Blog Name</th>
+        <th>Blog Creator</th>
+        <th>Blog Description</th>
+        <th>View Blog</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>

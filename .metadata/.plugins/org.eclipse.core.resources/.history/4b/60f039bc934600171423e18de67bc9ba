@@ -1,0 +1,2 @@
+<div ng-controller="BlogController as ctrl">
+</div>

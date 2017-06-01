@@ -104,5 +104,9 @@ public class BlogDAOImpl implements BlogDAO {
 		log.debug("Retreiving all blogs");
 		return sessionFactory.getCurrentSession().createQuery("from Blog").list();
 	}
+	
+	public List<Blog> getBlogsOfUser(String userID){
+		return sessionFactory.getCurrentSession().createQuery("from Blog where blogCreatorId='"+userID+"'").list();
+	}
 
 }

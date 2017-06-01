@@ -18,4 +18,6 @@ public interface BlogDAO {
 	
 	public List<Blog> getAllBlogs();
 	
+	public List<Blog> getBlogsOfUser(String userID);
+	
 }

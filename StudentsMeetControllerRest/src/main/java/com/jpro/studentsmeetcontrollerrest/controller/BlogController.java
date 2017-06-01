@@ -1,5 +1,6 @@
 package com.jpro.studentsmeetcontrollerrest.controller;
 
+import java.util.Date;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -57,6 +58,7 @@ public class BlogController {
 			log.debug("Blog updated");
 			updateBlog.setErrorCode("200");
 			updateBlog.setErrorMsg("Blog updated");
+			updateBlog.setLastUpdateDate(new Date());
 			return new ResponseEntity<Blog>(updateBlog,HttpStatus.OK);
 		}
 		else
@@ -96,10 +98,15 @@ public class BlogController {
 		}
 	}
 	
-	@PostMapping("/getAllBlog")
+	@GetMapping("/getAllBlog")
 	public ResponseEntity<List<Blog>> getAllBlog(){
 		log.debug("Getting all blogs");
 		return new ResponseEntity<List<Blog>>(blogDAO.getAllBlogs(),HttpStatus.OK);
+	}
+	
+	@GetMapping("/getBlogOfUser/{userID}")
+	public ResponseEntity<List<Blog>> getBlogOfUser(@PathVariable("userID") String userID){
+		return new ResponseEntity<List<Blog>>(blogDAO.getBlogsOfUser(userID),HttpStatus.OK);
 	}
 
 }
