@@ -7,13 +7,13 @@
   	  <div ng-controller="UserController as ctrl">
       <li class="active"><a href="#!/goUserHome">Home</a></li>
       </div>
-      <div ng-controller="BlogController as ctrl">
+      <div ng-controller="BlogController as btrl">
       <div class="dropdown">
       <button class="dropbtn">Blog</button>
     	<div class="dropdown-content">
       	 <a href="#!/goBlogCreate">Create Blog</a>
-      	 <a href="#"><button onclick="ctrl.geBlogs()">View Blogs</button></a>
-     	 <a href="#"><button onclick="ctrl.getMyBlogs()">Update My Blog</button></a>
+      	 <a href="#"><button onclick="btrl.geBlogs()">View Blogs</button></a>
+     	 <a href="#"><button onclick="btrl.getMyBlogs()">Update My Blog</button></a>
     	</div>
       </div>
       </div>

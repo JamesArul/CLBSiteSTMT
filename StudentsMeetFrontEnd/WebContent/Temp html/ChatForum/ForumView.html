@@ -1,0 +1,15 @@
+<div ng-controller="ChatForumController as fctrl">
+{{forum.chatForumId}}
+<p ng-repeat="x in forum.messages">
+{{x.msgData}}<br/>
+{{x.userId}}</p>
+<button>Report</button>
+<center>
+<form ng-submit="fctrl.postMessage()" id="msgForm">
+UserID : <input type="text" ng-model="fctrl.message.userId"/><br>
+Post Message : <br><textarea cols="40" rows="8" form="msgForm" ng-model="fctrl.message.msgData"></textarea><br>
+<input type="submit" value="Post Message" />
+</form>
+</center>
+<br>
+</div>
