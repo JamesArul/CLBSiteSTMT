@@ -13,6 +13,8 @@ import javax.persistence.Table;
 import org.springframework.stereotype.Component;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 @Entity
 @Component
@@ -34,6 +36,7 @@ public class Comment extends BaseDomain {
 	
 	private char reportComment;
 	
+	@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property="blogID", scope=Blog.class)
 	@ManyToOne
 	@JoinColumn(name = "blogID", nullable = false, updatable = false, insertable = false)
 	private Blog blog;

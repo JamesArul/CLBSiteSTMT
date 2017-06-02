@@ -13,6 +13,8 @@ import javax.persistence.Table;
 import org.springframework.stereotype.Component;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 @Entity
 @Component
@@ -25,6 +27,7 @@ public class ForumMessage extends BaseDomain {
 	
 	private long forumId;
 	
+	@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property="forumId", scope=Forum.class)
 	@ManyToOne
 	@JoinColumn(name = "forumId", nullable = false, updatable = false, insertable = false)
 	private Forum forum;

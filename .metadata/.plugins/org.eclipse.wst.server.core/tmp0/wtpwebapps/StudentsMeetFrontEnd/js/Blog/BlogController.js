@@ -11,16 +11,15 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 		lastUpdateDate : '',
 		comments : []
 	};
+	this.comment={
+			blogID:'',
+			commentUserId:'',
+			commentDate:'',
+			commentText:'',
+			reportComment:''
+	};
+	this.comments=[];
 	this.editblog={
-			blogID :'',
-			blogName : '',
-			blogCreatorId : '',
-			blogData :'',
-			blogDescription : '',
-			lastUpdateDate : '',
-			comments : []
-		};
-	$rootScope.blog={
 			blogID :'',
 			blogName : '',
 			blogCreatorId : '',
@@ -47,7 +46,6 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 			userFriends : [],
 			userImage : ''
 		};
-	$rootScope.blogs=[];
 	this.blogs=[];
 	this.createBlog=function(){
 		console.log("Creating Blog");
@@ -56,20 +54,20 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 		BlogService.createBlog(this.blog)
 		.then(
 				function(d) {
-					$rootScope.getBlogs();
 					$rootScope.blog=d;
-					$location.path("/goBlogViewAll")					
+					this.getBlogs();				
 				},
 				function(errResponse) {
 					console.error('Error while creating blog');
 				});
 	};
-	this.geBlogs=function(){
+	this.getBlogs=function(){
 		console.log("Getting all blogs");
 		BlogService.getAllBlog()
 		.then(
 				function(d){
 					$rootScope.blogs=d;
+					$location.path("/goBlogViewAll")
 				},
 				function(errResponse){
 					console.error('Error while getting all blogs');
@@ -86,12 +84,13 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 					console.error('Error while getting all blogs');
 				});
 	};
-	this.viewBlog=function(){
+	this.viewBlog=function(blogID){
 		console.log("Getting this blog");
-		BlogService.getBlogByID(this.blogID)
+		this.getCommentsofBlog(blogID);
+		BlogService.getBlogByID(blogID)
 		.then(
 				function(d){
-					this.blog=d;
+					$rootScope.blog=d;
 					$location.path("/goBlogView")
 				},
 				function(errResponse){
@@ -104,16 +103,16 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 		BlogService.getBlogOfUser(this.user.userID)
 		.then(
 				function(d){
-					this.blogs=d;
-					$location.path=("/goBlogsUser")
+					$rootScope.blogs=d;
+					$location.path("/goBlogsUser")
 				},
 				function(errResponse){
 					console.error('Error while getting blogs of User');
 				});
 	}
-	this.editBlog=function(){
+	this.editBlog=function(blogID){
 		console.log("Getting this blog");
-		this.editblog={
+		$rootScope.editblog={
 				blogID :'',
 				blogName : '',
 				blogCreatorId : '',
@@ -122,9 +121,10 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 				lastUpdateDate : '',
 				comments : []
 			};
-		BlogService.getBlogByID(this.blogID)
+		BlogService.getBlogByID(blogID)
 		.then(
 				function(d){
+					$rootScope.editblog=d;
 					this.editblog=d;
 					$location.path("/goBlogEdit")
 				},
@@ -134,14 +134,41 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 	};
 	this.updateBlog=function(){
 		console.log("Updating blog");
+		this.getCommentsofBlog(this.editblog.blogID);
 		BlogService.updateBlog(this.editblog)
 		.then(
 				function(d){
-					this.editblog=d;
-					$location.path("/goBlogEdit")
+					$rootScope.blog=d;
+					$location.path("/goBlogView")
 				},
 				function(errResponse){
 					console.error('Error while updating blog');
+				});
+	}
+	this.submitComment=function(){
+		console.log("Adding comment");
+		this.comment.blogID=$rootScope.blog.blogID;
+		this.user=$cookieStore.get('currentUser');
+		this.comment.commentUserId=this.user.userID;
+		BlogService.addComment(this.comment)
+		.then(
+				function(d){
+					$rootScope.comments=d;
+					$location.path("/goBlogView")
+				},
+				function(errResponse){
+					console.error('Error while posting comment in blog');
+				});
+	},
+	this.getCommentsofBlog=function(blogID){
+		console.log("Getting comments of blog")
+		BlogService.getComments(blogID)
+		.then(
+				function(d){
+					$rootScope.comments=d;
+				},
+				function(errResponse){
+					console.error('Error while getting comment in blog');
 				});
 	}
 }])

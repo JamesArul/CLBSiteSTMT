@@ -62,6 +62,30 @@ app.service('BlogService', ['$http', '$q','$rootScope', function($http, $q,$root
                         console.error('Error while updating blog..BlogService');
                         return $q.reject(errResponse);
                     });
+		},
+		addComment : function(comment){
+			console.log("Posting comment..BLogService")
+			return $http.post(BASE_URL+'addComment/',comment)
+			.then(
+					function(response){
+                        return response.data;
+                    }, 
+                    function(errResponse){
+                        console.error('Error while posting comment..BlogService');
+                        return $q.reject(errResponse);
+                    });
+		},
+		getComments : function(blogID){
+			console.log("Getting comments..BlogService")
+			return $http.get(BASE_URL+'getAllComments/'+blogID)
+			.then(
+					function(response){
+                        return response.data;
+                    }, 
+                    function(errResponse){
+                        console.error('Error while getting comment..BlogService');
+                        return $q.reject(errResponse);
+                    });
 		}
 	}
 }])

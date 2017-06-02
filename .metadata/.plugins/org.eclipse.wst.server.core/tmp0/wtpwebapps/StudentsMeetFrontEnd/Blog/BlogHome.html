@@ -1,14 +1,15 @@
+<div ng-include="'Common/CommonHeader.html'"></div>
 <div ng-controller="BlogController as btrl">
 <center>
 <div class="row">
 <div class="col-sm-4">
-<button type="button" class="btn btn-success" onclick="">Create Blog</button>
+<button type="button" class="btn btn-success" onclick=""><a href="#!/goBlogCreate">Create Blog</a></button>
 </div>
 <div class="col-sm-4">
-<button type="button" class="btn btn-success" onclick="btrl.">View Blogs</button>
+<button type="button" class="btn btn-success" ng-click="btrl.getBlogs()">View Blogs</button>
 </div>
 <div class="col-sm-4">
-<button type="button" class="btn btn-success" onclick="">Update My Blogs</button>
+<button type="button" class="btn btn-success" ng-click="btrl.getMyBlogs()">Update My Blogs</button>
 </div>
 </div>
 </center>

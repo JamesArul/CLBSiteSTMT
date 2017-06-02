@@ -1,0 +1,7 @@
+<div ng-include="'Blog/BlogHome.html'"></div>
+<div ng-controller="BlogController as btrl">
+<center><h1>{{blog.blogName}}</h1></center>
+<h3>By {{btrl.blog.blogCreatorId}}</h3>
+<h3>Last updated on : {{blog.lastUpdateDate}}</h3>
+<p>{{blog.blogData}}</p>
+</div>

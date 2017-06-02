@@ -1,4 +1,3 @@
-<div ng-include="'Common/CommonHeader.html'"></div>
 <div ng-include="'Blog/BlogHome.html'"></div>
 <div ng-controller="BlogController as btrl">
 <div class="container">
@@ -12,15 +11,12 @@
         <th>View Blog</th>
       </tr>
     </thead>
-    <tbody ng-repeat="x in blogs">
-      <tr>
-        <td>x.blogName</td>
-        <td>x.blogCreatorId</td>
-        <td>x.blogDescription</td>
-        <td><form ng-submit="btrl.viewBlog()">
-        <input type="hidden" value="{{x.blogID}}" ng-model="btrl.blogID"/>
-        <input type="submit" value="See Blog">
-        </form></td>
+    <tbody>
+      <tr ng-repeat="x in blogs">
+        <td>{{x.blogName}}</td>
+        <td>{{x.blogCreatorId}}</td>
+        <td>{{x.blogDescription}}</td>        
+        <td><button class="btn btn-default" ng-click='btrl.viewBlog(x.blogID)' >See blog</button></td>
       </tr>
     </tbody>
   </table>

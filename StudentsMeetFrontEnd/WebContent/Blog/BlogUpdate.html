@@ -1,4 +1,3 @@
-<div ng-include="'Common/CommonHeader.html'"></div>
 <div ng-include="'Blog/BlogHome.html'"></div>
 <div ng-controller="BlogController as btrl">
 <div class="container">
@@ -11,18 +10,13 @@
         <th>View Blog</th>
       </tr>
     </thead>
-    <div ng-repeat="x in btrl.blogs">
     <tbody>
-      <tr>
-        <td>x.blogName</td>
-        <td>x.blogDescription</td>
-        <td><form ng-submit="btrl.editBlog()">
-        <input type="hidden" value="{{x.blogID}}" ng-model="btrl.blogID"/>
-        <input type="submit" value="Edit Blog">
-        </form></td>
+      <tr ng-repeat="x in blogs">
+        <td>{{x.blogName}}</td>
+        <td>{{x.blogDescription}}</td>
+        <td><button class="btn btn-default" ng-click='btrl.editBlog(x.blogID)'>Edit blog</button></td>
       </tr>
     </tbody>
-    </div>
   </table>
 </div>
 </div>
