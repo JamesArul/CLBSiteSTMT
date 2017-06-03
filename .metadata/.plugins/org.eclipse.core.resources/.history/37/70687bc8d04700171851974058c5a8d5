@@ -1,0 +1,8 @@
+'user strict';
+app.controller('ForumController',['$scope','ForumService','$cookies','$location','$rootScope','$cookieStore','$http',
+	function($scope, ForumService, $cookies, $location, $rootScope, $cookieStore, $http) {
+	console.log("Inside ForumController")
+	this.forum={
+		
+	}
+}])

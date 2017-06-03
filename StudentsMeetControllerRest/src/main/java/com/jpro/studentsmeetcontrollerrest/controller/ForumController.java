@@ -28,10 +28,10 @@ private static final Logger log=LoggerFactory.getLogger(ForumController.class);
 	private ForumDAO forumDAO;
 	
 	@PostMapping("/createForum")
-	public ResponseEntity<Forum> createForum(@RequestBody Forum forum){
+	public ResponseEntity<List<Forum>> createForum(@RequestBody Forum forum){
 		boolean valid=forumDAO.createForum(forum);
 		if(valid){
-			return new ResponseEntity<Forum>(forum,HttpStatus.OK);
+			return new ResponseEntity<List<Forum>>(forumDAO.getAllForum(),HttpStatus.OK);
 		}
 		else{
 			return null;

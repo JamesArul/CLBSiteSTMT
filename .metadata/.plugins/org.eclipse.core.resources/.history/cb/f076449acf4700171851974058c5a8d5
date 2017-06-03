@@ -1,0 +1,16 @@
+<div ng-include="'Common/CommonHeader.html'"></div>
+<div ng-controller="ForumController as ftrl">
+<center>
+<div class="row">
+<div class="col-sm-4">
+<button type="button" class="btn btn-success" onclick=""><a href="#!/goForumCreate">Create Forum</a></button>
+</div>
+<div class="col-sm-4">
+<button type="button" class="btn btn-success" ng-click="btrl.getBlogs()">View Forums</button>
+</div>
+<div class="col-sm-4">
+<button type="button" class="btn btn-success" ng-click="btrl.getMyBlogs()">Update My Forum</button>
+</div>
+</div>
+</center>
+</div>
