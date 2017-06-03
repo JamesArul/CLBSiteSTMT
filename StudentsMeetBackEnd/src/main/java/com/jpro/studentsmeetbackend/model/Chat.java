@@ -24,6 +24,8 @@ public class Chat extends BaseDomain {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private long chatId;
 	
+	private String creatorID;
+	
 	@ElementCollection(fetch=FetchType.EAGER)
 	@CollectionTable(name="STMT_CHAT_MESSAGES",joinColumns=@JoinColumn(name="chatId"))
 	private List<ChatMessage> chat_Messages=new LinkedList<ChatMessage>();
@@ -40,6 +42,14 @@ public class Chat extends BaseDomain {
 
 	public void setChatId(long chatId) {
 		this.chatId = chatId;
+	}
+
+	public String getCreatorID() {
+		return creatorID;
+	}
+
+	public void setCreatorID(String creatorID) {
+		this.creatorID = creatorID;
 	}
 
 	public List<ChatMessage> getChat_Messages() {

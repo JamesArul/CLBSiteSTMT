@@ -1,0 +1,1 @@
+<div ng-include="'User/FriendHome.html'"></div>

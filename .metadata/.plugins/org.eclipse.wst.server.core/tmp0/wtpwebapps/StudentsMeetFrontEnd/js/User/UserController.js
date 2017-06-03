@@ -18,7 +18,13 @@ app.controller('UserController',['$scope','UserService','$cookies','$location','
 		userRole : '',
 		userFriends : [],
 		userImage : ''
-	}
+	};
+	this.friend={
+			userID:'',
+			friendId:'',
+			friendStatus:'',
+			isOnline:''
+	};
 	$rootScope.currentUser ={
 			userID : '',
 			userName : '',
@@ -33,11 +39,11 @@ app.controller('UserController',['$scope','UserService','$cookies','$location','
 			userRole : '',
 			userFriends : [],
 			userImage : ''
-		}
+		};
 	this.users = [];
 	$scope.orderByMe = function(x) {
 		$scope.myOrderBy = x;
-	}
+	};
 	this.createUser = function(user) {
 		console.log("Creating user");
 		UserService.createUser(user)
@@ -88,7 +94,7 @@ app.controller('UserController',['$scope','UserService','$cookies','$location','
 				});
 	};
 	this.logout=function(){
-		console.log('Logout User');
+		console.log("Logout User");
 		user=$cookieStore.get('currentUser');
 		UserService.logout(user)
 		.then(
@@ -98,6 +104,47 @@ app.controller('UserController',['$scope','UserService','$cookies','$location','
 				},
 				function(errResponse) {
 					console.error('Error while logout');
+				});
+	};
+	this.getFriends=function(){
+		console.log("Getting friends of user")
+		this.user=$cookieStore.get('currentUser');
+		UserService.getFriends(this.user.userID)
+		.then(
+				function(d){
+					$rootScope.friends=d;
+					$location.path("/goFriendsView")
+				},
+				function(errResponse){
+					console.error('Error while retreiving friends');
+				});
+	};
+	this.getUserFriends=function(){
+		console.log("Getting friends of user")
+		this.user=$cookieStore.get('currentUser');
+		UserService.getFriends(this.user.userID)
+		.then(
+				function(d){
+					$rootScope.friends=d;
+				},
+				function(errResponse){
+					console.error('Error while retreiving friends');
+				});
+	};
+	this.getAllUsers=function(){
+		console.log("Getting all users")
+		UserService.getAllUsers()
+		.then(
+				function(d){
+					this.user=$cookieStore.get('currentUser');
+					var userid=this.user.userID;
+					var index=d.findIndex(x => x.userID==userid);
+					d.splice(index,1);
+					$rootScope.users=d;					
+					$location.path("/goViewUsers")
+				},
+				function(errResponse){
+					console.error('Error while getting users')
 				});
 	};
 }])

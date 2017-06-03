@@ -56,6 +56,18 @@ app.config(function($routeProvider) {
 		templateUrl : 'Forum/ForumView.html',
 		controller : 'ForumController'
 	})
+	.when('/goFriendHome',{
+		templateUrl:'User/FriendHome.html',
+		controller:'UserController'
+	})
+	.when('/goFriendsView',{
+		templateUrl:'User/UserViewFriends.html',
+			controller:'UserController'
+	})
+	.when('/goViewUsers',{
+		templateUrl:'User/UserViewAll.html',
+		controller:'UserController'
+	})
 	.otherwise({
 		redirectTo : '/'
 	});
