@@ -1,0 +1,11 @@
+<div ng-include="'Common/CommonHeader.html'"></div>
+<div ng-controller="UserController as ctrl">
+<div class="row">
+<div class="col-sm-4">
+<button type="button" class="btn btn-success" ng-click="ctrl.getBlogs()">View Friends</button>
+</div>
+<div class="col-sm-4">
+<button type="button" class="btn btn-success" ng-click="ctrl.getMyBlogs()">Add Friends</button>
+</div>
+</div>
+</div>

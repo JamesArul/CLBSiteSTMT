@@ -1,15 +1,27 @@
 package com.jpro.studentsmeetbackend.model;
 
 import javax.persistence.Embeddable;
+import javax.persistence.Transient;
 
 @Embeddable
 public class Friend extends BaseDomain {
+	
+	@Transient
+	private String userID;
 	
 	private String friendId;
 	
 	private String friendStatus;
 	
 	private char isOnline;
+
+	public String getUserID() {
+		return userID;
+	}
+
+	public void setUserID(String userID) {
+		this.userID = userID;
+	}
 
 	public String getFriendId() {
 		return friendId;

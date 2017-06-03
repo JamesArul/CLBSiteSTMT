@@ -1,0 +1,10 @@
+<div ng-include="'Common/CommonHeader.html'"></div>
+<h2><center>Welcome {{currentUser.userName}}</center></h2>
+<div class="row">
+<div class="col-sm-4">
+<button type="button" class="btn btn-success" ng-click="btrl.getBlogs()">View Blogs</button>
+</div>
+<div class="col-sm-4">
+<button type="button" class="btn btn-success" ng-click="btrl.getMyBlogs()">Update My Blogs</button>
+</div>
+</div>

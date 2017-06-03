@@ -1,0 +1,2 @@
+<div ng-include="'Common/CommonHeader.html'"></div>
+<h2><center>Welcome </center></h2>

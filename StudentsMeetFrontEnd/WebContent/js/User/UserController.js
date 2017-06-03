@@ -88,7 +88,7 @@ app.controller('UserController',['$scope','UserService','$cookies','$location','
 				});
 	};
 	this.logout=function(){
-		console.log('Logout User');
+		console.log("Logout User");
 		user=$cookieStore.get('currentUser');
 		UserService.logout(user)
 		.then(
@@ -98,6 +98,43 @@ app.controller('UserController',['$scope','UserService','$cookies','$location','
 				},
 				function(errResponse) {
 					console.error('Error while logout');
+				});
+	};
+	this.getFriends=function(){
+		console.log("Getting friends of user")
+		this.user=$cookieStore.get('currentUser');
+		UserService.getFriends(this.user.userID)
+		.then(
+				function(d){
+					$rootScope.friends=d;
+					$location.path("/goFriendsView")
+				},
+				function(errResponse){
+					console.error('Error while retreiving friends');
+				});
+	};
+	this.getUserFriends=function(){
+		console.log("Getting friends of user")
+		this.user=$cookieStore.get('currentUser');
+		UserService.getFriends(this.user.userID)
+		.then(
+				function(d){
+					$rootScope.friends=d;
+				},
+				function(errResponse){
+					console.error('Error while retreiving friends');
+				});
+	};
+	this.getAllUsers=function(){
+		console.log("Getting all users")
+		UserService.getAllUsers()
+		.then(
+				function(d){
+					$rootScope.users=d;
+					$location.path("/goViewUsers")
+				},
+				function(errResponse){
+					console.error('Error while getting users')
 				});
 	};
 }])
