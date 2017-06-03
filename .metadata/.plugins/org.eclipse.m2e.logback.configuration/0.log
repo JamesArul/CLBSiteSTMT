@@ -3010,3 +3010,11 @@ java.net.UnknownHostException: java.sun.com
 2017-06-03 14:15:51,822 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-06-03 14:15:51,824 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-06-03 14:15:51,825 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetControllerRest\src\test\resources
+2017-06-03 15:22:12,685 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-03 15:22:12,717 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-06-03 15:22:12,720 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-03 15:22:12,720 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources
+2017-06-03 15:22:22,149 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-03 15:22:22,150 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\main\resources
+2017-06-03 15:22:22,153 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-03 15:22:22,153 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\EclipseMain\FinalProject\StudentsMeet\StudentsMeetBackEnd\src\test\resources

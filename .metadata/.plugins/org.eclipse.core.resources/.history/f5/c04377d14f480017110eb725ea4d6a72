@@ -8,7 +8,7 @@
 <button type="button" class="btn btn-success" ng-click="ctrl.getAllUsers()">Add friends</button>
 </div>
 <div class="col-sm-4">
-<button type="button" class="btn btn-success" ng-click="ctrl.getFriendRequests()">View Friend Requests</button>
+<button type="button" class="btn btn-success" ng-click="ctrl.getAllUsers()">View Friend Requests</button>
 </div>
 </div>
 </div>
