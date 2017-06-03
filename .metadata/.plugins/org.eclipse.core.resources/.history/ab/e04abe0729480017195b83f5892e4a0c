@@ -1,0 +1,12 @@
+<div ng-include="'Forum/ForumHome.html'"></div>
+<div ng-controller="ForumController as ftrl">
+<center><h1>{{forum.forumName}}</h1></center>
+<center><h4>Forum Messages</h4></center>
+<p ng-repeat="x in comments">
+{{x.commentUserId}} on {{x.commentDate}}<br/>
+{{x.commentText}}</p>
+<form ng-submit="btrl.submitComment()" id="cmtForm">
+<textarea rows="8" cols="40" ng-model="btrl.comment.commentText">Enter Comment...</textarea><br/>
+<input type="submit" value="Post Comment">
+</form>
+</div>

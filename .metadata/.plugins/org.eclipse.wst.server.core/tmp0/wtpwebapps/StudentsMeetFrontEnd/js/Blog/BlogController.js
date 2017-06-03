@@ -129,7 +129,7 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 					$location.path("/goBlogEdit")
 				},
 				function(errResponse){
-					console.error('Error while getting blog');
+					console.error('Error while editing blog');
 				});
 	};
 	this.updateBlog=function(){

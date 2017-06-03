@@ -40,6 +40,22 @@ app.config(function($routeProvider) {
 		templateUrl : 'Blog/BlogEdit.html',
 		controller : 'BlogController'
 	})
+	.when('/goForumHome',{
+		templateUrl: 'Forum/ForumHome.html',
+		controller : 'ForumController'
+	})
+	.when('/goForumCreate',{
+		templateUrl: 'Forum/ForumCreate.html',
+		controller : 'ForumController'
+	})
+	.when('/goForumViewAll',{
+		templateUrl: 'Forum/ForumViewAll.html',
+		controller : 'ForumController'
+	})
+	.when('/goForumView',{
+		templateUrl : 'Forum/ForumView.html',
+		controller : 'ForumController'
+	})
 	.otherwise({
 		redirectTo : '/'
 	});

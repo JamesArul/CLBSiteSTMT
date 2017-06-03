@@ -29,10 +29,10 @@ public class FourmMessageController {
 	private ForumMessageDAO forumMessageDAO;
 	
 	@PostMapping("/createForumMessage")
-	public ResponseEntity<ForumMessage> createForumMessage(@RequestBody ForumMessage msg){
+	public ResponseEntity<List<ForumMessage>> createForumMessage(@RequestBody ForumMessage msg){
 		boolean valid=forumMessageDAO.createForumMessage(msg);
 		if(valid){
-			return new ResponseEntity<ForumMessage>(msg,HttpStatus.OK);
+			return new ResponseEntity<List<ForumMessage>>(forumMessageDAO.getAllForumMessage(msg.getForumId()),HttpStatus.OK);
 		}
 		else{
 			return null;

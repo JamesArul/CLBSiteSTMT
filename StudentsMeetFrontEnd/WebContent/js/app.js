@@ -44,12 +44,16 @@ app.config(function($routeProvider) {
 		templateUrl: 'Forum/ForumHome.html',
 		controller : 'ForumController'
 	})
-		.when('/goForumCreate',{
+	.when('/goForumCreate',{
 		templateUrl: 'Forum/ForumCreate.html',
 		controller : 'ForumController'
 	})
-		.when('/goForumViewAll',{
+	.when('/goForumViewAll',{
 		templateUrl: 'Forum/ForumViewAll.html',
+		controller : 'ForumController'
+	})
+	.when('/goForumView',{
+		templateUrl : 'Forum/ForumView.html',
 		controller : 'ForumController'
 	})
 	.otherwise({

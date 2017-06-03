@@ -1,0 +1,20 @@
+<div ng-include="'Forum/ForumHome.html'"></div>
+<div ng-controller="ForumController as ftrl">
+<div class="container">
+  <h2>Available Forums</h2>
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Forum Name</th>
+        <th>View Forum</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="x in forums">
+        <td>{{x.forumName}}</td>
+        <td><button class="btn btn-default" ng-click='ftrl.viewForum(x.forumId)' >See Forum</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
