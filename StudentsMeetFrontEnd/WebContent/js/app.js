@@ -68,6 +68,10 @@ app.config(function($routeProvider) {
 		templateUrl:'User/UserViewAll.html',
 		controller:'UserController'
 	})
+	.when('/goAdminHome',{
+		templateUrl : 'Admin/AdminHome.html',
+		controller : 'UserController'
+	})
 	.otherwise({
 		redirectTo : '/'
 	});

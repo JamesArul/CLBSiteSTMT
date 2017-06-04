@@ -1,0 +1,4 @@
+<div ng-include="'Blog/BlogHome.html'"></div>
+<div ng-controller="BlogController as btrl">
+
+</div>

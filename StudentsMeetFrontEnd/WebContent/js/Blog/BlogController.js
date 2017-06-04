@@ -12,6 +12,7 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 		comments : []
 	};
 	this.comment={
+			commentID:'',
 			blogID:'',
 			commentUserId:'',
 			commentDate:'',
@@ -170,5 +171,19 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 				function(errResponse){
 					console.error('Error while getting comment in blog');
 				});
+	},
+	this.reportComment=function(commentID){
+		console.log("reporting comment")
+		BlogService.reportCommentByID(commentID)
+		.then(
+				function(d){
+					$rootScope.comment=d;
+				},
+				function(errResponse){
+					console.error('Error while reporting comment in blog');
+				});
+	},
+	this.continue=function(){
+		this.viewBlog($rootScope.blog.blogID);
 	}
 }])

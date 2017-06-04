@@ -86,6 +86,18 @@ app.service('BlogService', ['$http', '$q','$rootScope', function($http, $q,$root
                         console.error('Error while getting comment..BlogService');
                         return $q.reject(errResponse);
                     });
+		},
+		reportCommentByID : function(commentID){
+			console.log("Reporting comment..BlogService")
+			return $http.get(BASE_URL+'reportComment/'+commentID)
+			.then(
+					function(response){
+                        return response.data;
+                    }, 
+                    function(errResponse){
+                        console.error('Error while reporting comment..BlogService');
+                        return $q.reject(errResponse);
+                    });
 		}
 	}
 }])
