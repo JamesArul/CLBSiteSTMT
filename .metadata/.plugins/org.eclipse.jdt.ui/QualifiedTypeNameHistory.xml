@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
 <fullyQualifiedTypeName name="org.junit.BeforeClass"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
-<fullyQualifiedTypeName name="com.jpro.studentsmeetbackend.model.Job"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.sql.Blob"/>
 <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
@@ -12,7 +11,6 @@
 <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
 <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
 <fullyQualifiedTypeName name="java.sql.Clob"/>
-<fullyQualifiedTypeName name="com.jpro.studentsmeetbackend.dao.JobDAO"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="org.hibernate.SQLQuery"/>
 <fullyQualifiedTypeName name="com.jpro.studentsmeetbackend.model.Blog"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
 <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="com.jpro.studentsmeetbackend.dao.JobDAO"/>
+<fullyQualifiedTypeName name="com.jpro.studentsmeetbackend.model.Job"/>
 </qualifiedTypeNameHistroy>
