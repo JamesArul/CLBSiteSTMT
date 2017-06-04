@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.jpro.studentsmeetbackend.dao.ChatDAO;
-import com.jpro.studentsmeetbackend.model.Blog;
 import com.jpro.studentsmeetbackend.model.Chat;
 import com.jpro.studentsmeetbackend.model.ChatMessage;
 

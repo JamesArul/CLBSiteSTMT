@@ -2,14 +2,11 @@
 <div ng-controller="ForumController as ftrl">
 <center>
 <div class="row">
-<div class="col-sm-4">
 <button type="button" class="btn btn-success" onclick=""><a href="#!/goForumCreate">Create Forum</a></button>
-</div>
-<div class="col-sm-4">
 <button type="button" class="btn btn-success" ng-click="ftrl.getForums()">View Forums</button>
-</div>
-<div class="col-sm-4">
 <button type="button" class="btn btn-success" ng-click="">Update My Forum</button>
+<div ng-if="isAdmin">
+  <button type="button" class="btn btn-success" ng-click="">Manage Forums</button>
 </div>
 </div>
 </center>

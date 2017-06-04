@@ -87,7 +87,13 @@ app.controller('UserController',['$scope','UserService','$cookies','$location','
 				function(d){
 					$cookieStore.put('currentUser',d);
 					$rootScope.currentUser=d;
+					var role=$rootScope.currentUser.userRole;
+			    	if(role==='ROLE_USER'){
 					$location.path("/goUserHome")
+			    	}
+			    	if(role==='ROLE_ADMIN'){
+			    		$location.path("/goAdminHome")
+			    	}
 				},
 				function(errResponse) {
 					console.error('Error while login');

@@ -68,6 +68,26 @@ app.config(function($routeProvider) {
 		templateUrl:'User/UserViewAll.html',
 		controller:'UserController'
 	})
+	.when('/goAdminHome',{
+		templateUrl : 'Admin/AdminHome.html',
+		controller : 'UserController'
+	})
+	.when('/goBlogManage',{
+		templateUrl:'Admin/ManageBlog.html',
+		controller:'UserController'
+	})
+	.when('/goForumManage',{
+		templateUrl:'Admin/ManageForum.html',
+		controller:'UserController'
+	})
+	.when('/goManageJob',{
+		templateUrl:'Admin/ManageJob.html',
+		controller:'UserController'
+	})
+	.when('/goChat',{
+		templateUrl:'Chat/ChatHome.html',
+		controller:'ChatController'
+	})
 	.otherwise({
 		redirectTo : '/'
 	});
@@ -122,9 +142,9 @@ app.run( function ($rootScope, $location, $cookies, $cookieStore, $http, UserSer
 	    	}
 	    	}
 	    	if(role==='ROLE_ADMIN'){
-	    		$rootScope.notLogged=true;
+	    		$rootScope.notLogged=false;
 				$rootScope.isUser=false;
-				$rootScope.isAdmin=false;
+				$rootScope.isAdmin=true;
 	    	}
 	    }
 	});

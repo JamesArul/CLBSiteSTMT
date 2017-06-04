@@ -1,6 +1,0 @@
-<div ng-controller="ChatForumController as fctrl">
-<form ng-submit="fctrl.deleteForum()">
-Enter Forum Id: <input type="text" ng-model="fctrl.forum.chatForumId"/><br>
-<input type="submit" value="Delete">
-</form>
-</div>

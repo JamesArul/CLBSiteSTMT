@@ -23,6 +23,8 @@ public class JobApplication extends BaseDomain {
 	
 	private long jobAppliedId;
 	
+	private String applicantDetails;
+	
 	@Embedded
 	private Qualification applicantQualification;
 	
@@ -66,6 +68,14 @@ public class JobApplication extends BaseDomain {
 
 	public void setApplicationStatus(String applicationStatus) {
 		this.applicationStatus = applicationStatus;
+	}
+
+	public String getApplicantDetails() {
+		return applicantDetails;
+	}
+
+	public void setApplicantDetails(String applicantDetails) {
+		this.applicantDetails = applicantDetails;
 	}
 
 }

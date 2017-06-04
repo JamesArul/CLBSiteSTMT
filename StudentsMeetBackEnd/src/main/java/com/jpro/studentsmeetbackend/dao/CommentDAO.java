@@ -1,6 +1,5 @@
 package com.jpro.studentsmeetbackend.dao;
 
-import java.util.Date;
 import java.util.List;
 
 import com.jpro.studentsmeetbackend.model.Comment;
