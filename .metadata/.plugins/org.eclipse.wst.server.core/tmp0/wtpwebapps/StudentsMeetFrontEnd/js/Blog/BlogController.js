@@ -178,12 +178,13 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 		.then(
 				function(d){
 					$rootScope.comment=d;
+					$location.path("/goBlogReportView")
 				},
 				function(errResponse){
 					console.error('Error while reporting comment in blog');
 				});
 	},
-	this.continue=function(){
+	this.continueBlog=function(){
 		this.viewBlog($rootScope.blog.blogID);
 	}
 }])

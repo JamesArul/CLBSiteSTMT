@@ -153,4 +153,19 @@ app.controller('UserController',['$scope','UserService','$cookies','$location','
 					console.error('Error while getting users')
 				});
 	};
+	this.acceptRequest=function(senderID){
+		console.log("Accepting request")
+		this.user=$cookieStore.get('currentUser');
+		this.friend.userID=this.user.userID;
+		this.friend.friendId=senderID;
+		UserService.acceptRequest(this.friend)
+		.then(
+				function(d){
+					$rootScope.friends=d;
+					$location.path("/goFriendsView")
+				},
+				function(errResponse){
+					console.error('Error while accpting friends');
+				});
+	}
 }])

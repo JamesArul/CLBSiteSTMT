@@ -85,4 +85,15 @@ private static final Logger log=LoggerFactory.getLogger(ChatController.class);
 	public ResponseEntity<List<Chat>> getChatOfUser(@PathVariable("userID") String userID){
 		return new ResponseEntity<List<Chat>>(chatDAO.getPrivateChatsOfUser(userID),HttpStatus.OK);
 	}
+	
+	@PostMapping("/addChatMessage")
+	public ResponseEntity<Chat> addMessage(@RequestBody ChatMessage msg){
+		boolean valid=chatDAO.addChatMessage(msg.getChatID(), msg);
+		if(valid){
+			return new ResponseEntity<Chat>(chatDAO.getChatById(msg.getChatID()),HttpStatus.OK);
+		}
+		else{
+			return null;
+		}
+	}
 }

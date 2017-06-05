@@ -33,6 +33,12 @@ app.controller('ChatController',['$scope','ChatService','$location','$rootScope'
 			userFriends : [],
 			userImage : ''
 		};
+	this.chatMsg={
+			chatID :'',
+			userID :'',
+			msgDate :'',
+			chatMsg :''
+	}
 	this.createChat=function(){
 		console.log("Creating chat")
 		this.user=$cookieStore.get('currentUser');
@@ -42,7 +48,7 @@ app.controller('ChatController',['$scope','ChatService','$location','$rootScope'
 		.then(
 				function(d){
 					$rootScope.chat=d;
-					$location.path("/goChatPage")
+					$location.path("/goChatList")
 				},
 				function(errResponse){
 					console.error('Error while creating chat');
@@ -74,6 +80,35 @@ app.controller('ChatController',['$scope','ChatService','$location','$rootScope'
 					});
 	};
 	this.joinOpenChat=function(chatID){
-		
+		console.log("user entering public chat")
+		this.getChatByID(chatID);
+		$location.path("/goChatPage")
+	};
+	this.getChatByID=function(chatID){
+		console.log("Getting chat by id")
+		ChatService.getChatById(chatID)
+		.then(
+				function(d){
+					$rootScope.chat=d;	
+					$location.path("/goChatPage")
+				},
+				function(errResponse){
+					console.error('Error while getting chat');
+				});
+	};
+	this.addMessage=function(){
+		console.log("Adding Message")
+		this.chatMsg.chatID=$rootScope.chat.chatId;
+		this.user=$cookieStore.get('currentUser');
+		this.chatMsg.userID=this.user.userID;
+		ChatService.addChatMessage(this.chatMsg)
+		.then(
+				function(d){
+					$rootScope.chat=d;					
+				},
+				function(errResponse){
+					console.error('Error while adding msg chat');
+				});
 	}
+	
 }])

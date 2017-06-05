@@ -13,7 +13,7 @@
     	<tr ng-repeat="x in chats">
     	<td>{{x.chatTopic}}</td>
     	<td>{{x.creatorID}}</td>
-    	<td><button class="btn btn-default" ng-click="ctrl.joinOpenChat('x.chatId')">Join Chat</button></td>
+    	<td><button class="btn btn-default" ng-click="ctrl.joinOpenChat(x.chatId)">Join Chat</button></td>
 	    </tr>
     </tbody>
 </table>

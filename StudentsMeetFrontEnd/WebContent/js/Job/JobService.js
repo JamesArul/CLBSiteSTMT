@@ -1,0 +1,8 @@
+'use strict';
+app.service('JobService', ['$http', '$q','$rootScope', function($http, $q,$rootScope){
+	console.log("JobService...")
+	var BASE_URL='http://localhost:8081/StudentsMeetControllerRest/';
+		return {
+
+		}
+}])

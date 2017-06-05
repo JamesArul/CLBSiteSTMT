@@ -92,13 +92,25 @@ app.config(function($routeProvider) {
 		templateUrl:'Chat/ChatCreate.html',
 		controller:'ChatController'
 	})
-	.when('/goChatPage',{
-		templateUrl :'Chat/ChatPage.html',
+	.when('/goChatList',{
+		templateUrl :'Chat/ChatList.html',
 		controller : 'ChatController'
 	})
 	.when('/goChatViewOpen',{
 		templateUrl:'Chat/ChatViewOpen.html',
 		controller:'ChatController'
+	})
+	.when('/goChatPage',{
+		templateUrl:'Chat/ChatPagePrime.html',
+		controller:'ChatController'
+	})
+	.when('/goJobHome',{
+		templateUrl : 'Job/JobHome.html',
+		controller : 'JobController'
+	})
+	.when('/goBlogReportView',{
+		templateUrl : 'Blog/BlogCommentReport.html',
+		controller : 'BlogController'
 	})
 	.otherwise({
 		redirectTo : '/'
@@ -110,7 +122,7 @@ app.run( function ($rootScope, $location, $cookies, $cookieStore, $http, UserSer
 		console.log("$locationChangeStart")		
 		$rootScope.currentUser= $cookieStore.get('currentUser') || {};
 		var userPage=['/goUserHome']
-		var adminPage=[]
+		var adminPage=['/goBlogManage']
 		var currentPage=$location.path()
 		var isUserPage = $.inArray(currentPage, userPage)
 		var isAdminPage = $.inArray(currentPage, adminPage)

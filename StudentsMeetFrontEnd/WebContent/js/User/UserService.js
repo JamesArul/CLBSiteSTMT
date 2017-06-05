@@ -54,6 +54,18 @@ app.service('UserService', ['$http', '$q','$rootScope', function($http, $q,$root
 						console.error('Error while getting users..UserService');
 						return $q.reject(errResponse);
 					});
+		},
+		acceptRequest : function(friend){
+			console.log("Acceptin request")
+			return $http.post(BASE_URL+'acceptFriendRequest/',friend)
+			.then(
+					function(response){
+						return response.data;
+					},
+					function(errResponse){
+						console.error('Error while accepting request..UserService');
+						return $q.reject(errResponse);
+					});
 		}
 	}
 	}])
