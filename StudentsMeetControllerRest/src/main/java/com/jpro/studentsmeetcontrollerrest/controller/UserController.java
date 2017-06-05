@@ -50,6 +50,11 @@ public class UserController {
 		return new ResponseEntity<List<Friend>>(userDAO.getAllFriendsOfUser(userID),HttpStatus.OK);
 	}
 	
+	@GetMapping("/getFriendsOfUser/{userID}")
+	public ResponseEntity<List<Friend>> getFriendsOfUser(@PathVariable("userID") String userID){
+		return new ResponseEntity<List<Friend>>(userDAO.getFriendsOfUser(userID),HttpStatus.OK);
+	}
+	
 	@PostMapping("/validateUser")
 	public  ResponseEntity<User> validateUser(@RequestBody User validateUser){
 		if(userDAO.userValidate(validateUser.getUserID(), validateUser.getUserPassword())){

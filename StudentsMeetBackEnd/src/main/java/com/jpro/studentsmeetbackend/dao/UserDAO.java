@@ -17,6 +17,8 @@ public interface UserDAO {
 	
 	public List<Friend> getAllFriendsOfUser(String userID);
 	
+	public List<Friend> getFriendsOfUser(String userID);
+	
 	public boolean userValidate(String userID,String userPassword);
 	
 	public boolean sendFriendRequest(String senderID,String receiverId);

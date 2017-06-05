@@ -65,6 +65,14 @@ public class UserDAOImpl implements UserDAO {
 		User user=(User) getUserById(userID);
 		return user.getUserFriends();
 	}
+	
+	public List<Friend> getFriendsOfUser(String userID){
+		String sql="select * from STMT_USER_FRIENDS where USERID=:userID and FRIENDSTATUS='Friend'";
+		SQLQuery query=sessionFactory.getCurrentSession().createSQLQuery(sql);
+		query.setParameter("userID", userID);
+		return query.list();
+	}
+
 
 	public boolean userValidate(String userID, String userPassword) {
 			User user=getUserById(userID);

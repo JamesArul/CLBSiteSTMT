@@ -24,5 +24,9 @@ public interface ChatDAO {
 	public boolean reportChat(long chatID);
 	
 	public List<Chat> getAllReportedChats();
+	
+	public List<Chat> getPrivateChatsOfUser(String userID);
+	
+	public List<Chat> getOpenChats();
 
 }

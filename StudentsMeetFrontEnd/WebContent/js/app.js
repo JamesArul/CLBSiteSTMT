@@ -84,9 +84,25 @@ app.config(function($routeProvider) {
 		templateUrl:'Admin/ManageJob.html',
 		controller:'UserController'
 	})
-	.when('/goChat',{
+	.when('/goChatHome',{
 		templateUrl:'Chat/ChatHome.html',
 		controller:'ChatController'
+	})
+	.when('/goChaCreate',{
+		templateUrl:'Chat/ChatCreate.html',
+		controller:'ChatController'
+	})
+	.when('/goChatPage',{
+		templateUrl :'Chat/ChatPage.html',
+		controller : 'ChatController'
+	})
+	.when('/goChatViewOpen',{
+		templateUrl:'Chat/ChatViewOpen.html',
+		controller:'ChatController'
+	})
+	.when('/goJobHome',{
+		templateUrl : 'Job/JobHome.html',
+		controller : 'JobController'
 	})
 	.otherwise({
 		redirectTo : '/'

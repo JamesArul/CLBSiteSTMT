@@ -52,6 +52,12 @@ private static final Logger log=LoggerFactory.getLogger(ChatController.class);
 		return new ResponseEntity<List<Chat>>(chatDAO.getAllChat(),HttpStatus.OK);
 	}
 	
+	@GetMapping("/getOpenChat")
+	public ResponseEntity<List<Chat>> getOpenChat(){
+		log.debug("Getting all chats");
+		return new ResponseEntity<List<Chat>>(chatDAO.getOpenChats(),HttpStatus.OK);
+	}
+	
 	@GetMapping("/getAllChatMessage/{chatID}")
 	public ResponseEntity<List<ChatMessage>> getAllChatMessgae(@PathVariable("chatID") long chatID){
 		log.debug("Getting all chat messages");
@@ -75,4 +81,8 @@ private static final Logger log=LoggerFactory.getLogger(ChatController.class);
 		}
 	}
 
+	@GetMapping("/getChatsOfUser/{userID}")
+	public ResponseEntity<List<Chat>> getChatOfUser(@PathVariable("userID") String userID){
+		return new ResponseEntity<List<Chat>>(chatDAO.getPrivateChatsOfUser(userID),HttpStatus.OK);
+	}
 }
