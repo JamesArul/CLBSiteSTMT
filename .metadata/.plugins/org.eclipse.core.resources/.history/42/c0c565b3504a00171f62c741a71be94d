@@ -1,0 +1,28 @@
+<div ng-include="'Job/JobHome.html'"></div>
+<div ng-controller="JobController as jtrl">
+<center>
+<form ng-submit="jtrl.createBlog()" class="form-horizontal">
+<div class="form-group">
+    <label class="control-label col-sm-2" for="jobName">Blog Name :</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="jobName" placeholder="Enter job Name"  ng-model="jtrl.job.jobName">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="jobDesc">Job Description :</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="jobDesc" placeholder="Enter job description"  ng-model="jtrl.job.jobDescription">
+    </div>
+  </div>
+  <div class="form-group">
+  	<label for="blogData">Write Blog:</label>
+  	<textarea class="form-control" rows="20" id="blogData" ng-model="btrl.blog.blogData"></textarea>
+  </div>
+  <div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-10">
+	<input type="submit" value="Create Blog">
+	</div>
+	</div>
+</form>
+</center>
+</div>

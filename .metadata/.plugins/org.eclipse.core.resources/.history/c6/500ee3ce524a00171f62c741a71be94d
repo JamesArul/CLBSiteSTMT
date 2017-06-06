@@ -1,0 +1,39 @@
+'use strict';
+app.controller('JobController',['$scope','JobService','$location','$rootScope','$cookieStore','$http',
+	function($scope, JobService, $location, $rootScope,$cookieStore, $http){
+	console.log("Inside JobController")
+	this.job={
+		jobId:'',
+		jobName:'',
+		jobDescription:'',
+		lastDateToApply:'',
+		requiredQualification:[],
+		jobSalary:'',
+		jobStatus:''
+	}
+	this.jobApplication={
+		jobApplicationId:'',
+		jobApplicantId:'',
+		jobAppliedId:'',
+		applicantDetails:'',
+		applicantQualification:'',
+		applicationStatus:''
+	}
+	this.putJob=function(){
+		$loaction.path("/goPostJob")
+	};
+	this.createBlog=function(){
+		console.log("Creating job")
+		JobService.createJob(this.job)
+		.then(
+				function(d){
+					$rootScope.jobs=d;
+					$location.path("/goJobViewAll")
+				},
+				function(errResponse){
+					console.error('Error creating job')
+				});
+	}
+	
+	
+}])

@@ -1,0 +1,5 @@
+<div ng-include="'Job/JobHome.html'"></div>
+<div ng-controller="JobController as jtrl">
+<form ng-submit="btrl.submitJobApplication()" class="form-horizontal">
+</form>
+</div>

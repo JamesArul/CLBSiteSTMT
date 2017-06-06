@@ -1,0 +1,3 @@
+<div ng-include="'Common/CommonHeader.html'"></div>
+<h2><center>Welcome {{currentUser.userName}}</center></h2>
+<div ng-include="'Common/CommonHome.html'"></div>

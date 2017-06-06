@@ -28,6 +28,7 @@ public class JobApplicationDAOImpl implements JobApplicationDAO {
 
 	public boolean createJobApplication(JobApplication jobApplication) {
 		try{
+			jobApplication.setApplicationStatus("Registered");
 			sessionFactory.getCurrentSession().save(jobApplication);
 			return true;
 		}

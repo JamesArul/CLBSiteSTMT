@@ -28,45 +28,45 @@ private static final Logger log=LoggerFactory.getLogger(JobController.class);
 	private JobDAO jobDAO;
 	
 	@PostMapping("/createjob")
-	public String createjob(@RequestBody Job newjob){
+	public ResponseEntity<List<Job>> createjob(@RequestBody Job newjob){
 		log.debug("Creating job");
 		boolean valid=jobDAO.createJob(newjob);
 		if(valid){
 			log.debug("job created");
-			return "Success";
+			return new ResponseEntity<List<Job>>(jobDAO.getAllJobs(),HttpStatus.OK);
 		}
 		else{
 			log.debug("job not created");
-			return "Error";
+			return null;
 		}
 	}
 
 	@GetMapping("/removejob/{jobID}")
-	public String removejob(@PathVariable("jobID") long jobID){
+	public ResponseEntity<List<Job>> removejob(@PathVariable("jobID") long jobID){
 		log.debug("Creating job");
 		job=jobDAO.getJobById(jobID);
 		boolean valid=jobDAO.removeJob(job);
 		if(valid){
 			log.debug("job removed");
-			return "Success";
+			return new ResponseEntity<List<Job>>(jobDAO.getAllJobs(),HttpStatus.OK);
 		}
 		else{
 			log.debug("job not removed");
-			return "Error";
+			return null;
 		}
 	}
 
 	@PostMapping("/updatejob")
-	public String updatejob(@RequestBody Job updatejob){
+	public ResponseEntity<List<Job>> updatejob(@RequestBody Job updatejob){
 		log.debug("Creating job");
 		boolean valid=jobDAO.updateJob(updatejob);
 		if(valid){
 			log.debug("job updated");
-			return "Success";
+			return new ResponseEntity<List<Job>>(jobDAO.getAllJobs(),HttpStatus.OK);
 		}
 		else{
 			log.debug("job not updated");
-			return "Error";
+			return null;
 		}
 	}
 	

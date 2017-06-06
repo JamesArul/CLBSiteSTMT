@@ -55,12 +55,12 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 		BlogService.createBlog(this.blog)
 		.then(
 				function(d) {
-					$rootScope.blog=d;
-					this.getBlogs();				
+					$rootScope.blog=d;				
 				},
 				function(errResponse) {
 					console.error('Error while creating blog');
 				});
+		this.getBlogs();
 	};
 	this.getBlogs=function(){
 		console.log("Getting all blogs");
@@ -135,7 +135,6 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 	};
 	this.updateBlog=function(){
 		console.log("Updating blog");
-		this.getCommentsofBlog(this.editblog.blogID);
 		BlogService.updateBlog(this.editblog)
 		.then(
 				function(d){
@@ -160,7 +159,7 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 				function(errResponse){
 					console.error('Error while posting comment in blog');
 				});
-	},
+	};
 	this.getCommentsofBlog=function(blogID){
 		console.log("Getting comments of blog")
 		BlogService.getComments(blogID)
@@ -171,7 +170,7 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 				function(errResponse){
 					console.error('Error while getting comment in blog');
 				});
-	},
+	};
 	this.reportComment=function(commentID){
 		console.log("reporting comment")
 		BlogService.reportCommentByID(commentID)
@@ -183,8 +182,20 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 				function(errResponse){
 					console.error('Error while reporting comment in blog');
 				});
-	},
+	};
 	this.continueBlog=function(){
 		this.viewBlog($rootScope.blog.blogID);
+	};
+	this.deleteBlog=function(blogID){
+		console.log("Deleting blog")
+		BlogService.deleteBlog(blogID)
+		.then(
+				function(d){
+					$rootScope.blogs=d;
+					$location.path("/goBlogViewAll")
+				},
+				function(errResponse){
+					console.error('Error while deleting blog');
+				});
 	}
 }])

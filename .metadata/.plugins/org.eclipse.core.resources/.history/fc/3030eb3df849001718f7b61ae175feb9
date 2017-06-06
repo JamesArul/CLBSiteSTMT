@@ -1,0 +1,13 @@
+<div ng-include="'Common/CommonHeader.html'"></div>
+<div ng-controller="BlogController as btrl">
+<center>
+<div class="row">
+<button type="button" class="btn btn-success" onclick=""><a href="#!/goBlogCreate">Create Blog</a></button>
+<button type="button" class="btn btn-success" ng-click="btrl.getBlogs()">View Blogs</button>
+<button type="button" class="btn btn-success" ng-click="btrl.getMyBlogs()">Update My Blogs</button>
+<div ng-if="isAdmin">
+  <button type="button" class="btn btn-success" ng-click="">Manage Blogs</button>
+</div>
+</div>
+</center>
+</div>

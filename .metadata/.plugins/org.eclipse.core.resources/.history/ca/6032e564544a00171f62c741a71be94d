@@ -1,0 +1,21 @@
+<div ng-include="'Job/JobHome.html'"></div>
+<div ng-controller="JobController as jtrl">
+<center><h2>Available Jobs</h2></center>
+<table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Job Name</th>
+        <th>Job Description</th>
+        <th>Job Salary</th>
+        <th>Job Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="x in jobs">
+        <td>{{x.blogName}}</td>
+        <td>{{x.blogCreatorId}}</td>
+        <td>{{x.blogDescription}}</td>        
+        <td><button class="btn btn-default" ng-click='btrl.viewBlog(x.blogID)' >See blog</button></td>
+      </tr>
+    </tbody>
+</div>

@@ -1,0 +1,4 @@
+<div ng-include="'Admin/AdminHome.html'"></div>
+<div ng-controller="UserController as ctrl">
+<center><h1>List of reported Blogs</h1></center>
+</div>

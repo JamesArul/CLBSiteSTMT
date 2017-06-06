@@ -2,7 +2,7 @@ var app = angular.module("myApp",['ngRoute','ngCookies']);
 app.config(function($routeProvider) {
 	$routeProvider
 	.when('/', {
-		templateUrl : 'Common/CommonHome.html'	
+		templateUrl : 'Common/Common.html'	
 	})
 	.when('/goRegister', {
 		templateUrl : 'User/Register.html',
@@ -104,13 +104,33 @@ app.config(function($routeProvider) {
 		templateUrl:'Chat/ChatPagePrime.html',
 		controller:'ChatController'
 	})
+	.when('/goBlogReportView',{
+		templateUrl : 'Blog/BlogCommentReport.html',
+		controller : 'BlogController'
+	})
 	.when('/goJobHome',{
 		templateUrl : 'Job/JobHome.html',
 		controller : 'JobController'
 	})
-	.when('/goBlogReportView',{
-		templateUrl : 'Blog/BlogCommentReport.html',
-		controller : 'BlogController'
+	.when('/goPostJob',{
+		templateUrl:'Job/JobPost.html',
+		controller:'JobController'
+	})
+		.when('/goJobViewAll',{
+		templateUrl:'Job/JobViewAll.html',
+		controller:'JobController'
+	})
+	.when('/goUserQualification',{
+		templateUrl:'User/UserQualification.html',
+		controller:'UserController'
+	})
+	.when('/goJobApply',{
+		templateUrl:'Job/JobApply.html',
+		controller:'JobController'
+	})
+	.when('/goJobApplicationViewAll',{
+		templateUrl:'Job/JobApplicationViewAll.html',
+		controller:'JobController'
 	})
 	.otherwise({
 		redirectTo : '/'
@@ -122,7 +142,7 @@ app.run( function ($rootScope, $location, $cookies, $cookieStore, $http, UserSer
 		console.log("$locationChangeStart")		
 		$rootScope.currentUser= $cookieStore.get('currentUser') || {};
 		var userPage=['/goUserHome']
-		var adminPage=['/goBlogManage']
+		var adminPage=['/goBlogManage','/goAdmin']
 		var currentPage=$location.path()
 		var isUserPage = $.inArray(currentPage, userPage)
 		var isAdminPage = $.inArray(currentPage, adminPage)
@@ -160,6 +180,7 @@ app.run( function ($rootScope, $location, $cookies, $cookieStore, $http, UserSer
 	    	$rootScope.isUser=true;
 	    	$rootScope.notLogged=false;
 	    	$rootScope.isAdmin=false;
+	    	$rootScope.userrole="USER";
 	    	if(isAdminPage===0){
 	    		alert("You do not access to this operation")
 	    		$location.path('/goUserHome');
@@ -169,6 +190,7 @@ app.run( function ($rootScope, $location, $cookies, $cookieStore, $http, UserSer
 	    		$rootScope.notLogged=false;
 				$rootScope.isUser=false;
 				$rootScope.isAdmin=true;
+				$rootScope.userrole="ADMIN";
 	    	}
 	    }
 	});

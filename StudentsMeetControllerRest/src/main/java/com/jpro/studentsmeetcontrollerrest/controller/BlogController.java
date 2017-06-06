@@ -71,16 +71,16 @@ public class BlogController {
 	}
 	
 	@GetMapping("/removeBlog/{blogId}")
-	public String removeBlog(@PathVariable("blogId") long blogId){
+	public ResponseEntity<List<Blog>> removeBlog(@PathVariable("blogId") long blogId){
 		log.debug("Start of method removeBlog");
 		boolean valid=blogDAO.removeBlog(blogId);
 		if(valid){
 			log.debug("Blog removed");
-			return "Success";
+			return new ResponseEntity<List<Blog>>(blogDAO.getAllBlogs(),HttpStatus.OK);
 		}
 		else{
 			log.debug("Blog not removed");
-			return "Error";
+			return null;
 		}
 	}
 

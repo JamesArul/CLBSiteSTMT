@@ -40,6 +40,18 @@ public class UserController {
 		}
 	}
 	
+	@PostMapping("/updateUser")
+	public ResponseEntity<User> updateUser(@RequestBody User newUser)
+	{
+		boolean valid=userDAO.updateUser(newUser);
+		if(valid){
+			return new ResponseEntity<User>(newUser,HttpStatus.OK);
+		}
+		else{
+			return null;
+		}
+	}
+	
 	@GetMapping("/getUserById/{userID}")
 	public ResponseEntity<User> getUSerByID(@PathVariable("userID") String userID){
 		return new ResponseEntity<User>(userDAO.getUserById(userID),HttpStatus.OK);

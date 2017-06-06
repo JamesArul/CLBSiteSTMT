@@ -98,6 +98,18 @@ app.service('BlogService', ['$http', '$q','$rootScope', function($http, $q,$root
                         console.error('Error while reporting comment..BlogService');
                         return $q.reject(errResponse);
                     });
+		},
+		deleteBlog : function(blogID){
+			console.log("REmoving blog..BlogService")
+			return $http.get(BASE_URL+'removeBlog/'+blogID)
+			.then(
+					function(response){
+                        return response.data;
+                    }, 
+                    function(errResponse){
+                        console.error('Error while removing blog..BlogService');
+                        return $q.reject(errResponse);
+                    });
 		}
 	}
 }])

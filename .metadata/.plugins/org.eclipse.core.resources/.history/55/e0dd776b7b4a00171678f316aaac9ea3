@@ -1,0 +1,93 @@
+'use strict';
+app.controller('JobController',['$scope','JobService','$location','$rootScope','$cookieStore','$http',
+	function($scope, JobService, $location, $rootScope,$cookieStore, $http){
+	console.log("Inside JobController")
+	this.job={
+		jobId:'',
+		jobName:'',
+		jobDescription:'',
+		lastDateToApply:'',
+		requiredQualification:[],
+		jobSalary:'',
+		jobStatus:''
+	};
+	this.jobid='';
+	this.jobApplication={
+		jobApplicationId:'',
+		jobApplicantId:'',
+		jobAppliedId:'',
+		applicantDetails:'',
+		applicantQualification:'',
+		applicationStatus:''
+	};
+	this.user={
+			errorCode : '',
+			errorMsg : '',
+			userID : '',
+			userName : '',
+			userPassword : '',
+			userQualification : {
+				tenthPercentage : '',
+				twelfthPercentage : '',
+				bachelorCGPAPercentage : ''
+			},
+			isOnline : '' ,
+			lastSeenOnline : '',
+			userRole : '',
+			userFriends : [],
+			userImage : ''
+		};
+	this.putJob=function(){
+		$loaction.path("/goPostJob")
+	};
+	this.createBlog=function(){
+		console.log("Creating job")
+		JobService.createJob(this.job)
+		.then(
+				function(d){
+					$rootScope.jobs=d;
+					$location.path("/goJobViewAll")
+				},
+				function(errResponse){
+					console.error('Error creating job')
+				});
+	};
+	this.applyJob=function(jobid){
+		this.user=$cookieStore.get('currentUser');
+		var qualCheckTenth=this.user.requiredQualification.tenthPercentage;
+		var qualCheckTwelfth=this.user.requiredQualification.twelfthPercentage;
+		var qualCheckDegree=this.user.requiredQualification.bachelorCGPAPercentage;
+		var elTenth=$rootScope.job.requiredQualification.tenthPercentage;
+		var elTwelth=$rootScope.job.requiredQualification.twelfthPercentage;
+		var elDegree=$rootScope.job.requiredQualification.bachelorCGPAPercentage;
+		if(qualCheckTenth==='' || qualCheckTwelfth===''|| qualCheckDegree===''){
+			$location.path("/goUserQualification")
+		}
+		JobService.getJobById(jobId)
+		.then(
+				function(d){
+					$rootScope.job=d;					
+				},
+				function(errResponse){
+					console.error('Error applying job')
+				});
+		if(qualCheckTenth < elTenth || qualCheckTwelfth < elTwelth || qualCheckDegree < elDegree)
+		{
+			alert("Not Eligible")
+		}
+		else{
+			$location.path("/goJobApply")
+		}
+	};
+	this.getJobs=function(){
+		BlogserVice.getAllJobs()
+			.then(
+					function(d){
+						$rootScope.jobs=d;
+						$location.path("/goJobViewAll")
+					},
+					function(errResponse){
+						console.error('Error getting jobs')
+					});
+	}	
+}])

@@ -40,6 +40,11 @@ app.controller('UserController',['$scope','UserService','$cookies','$location','
 			userFriends : [],
 			userImage : ''
 		};
+	this.qualification={
+			tenthPercentage:'',
+			twelfthPercentage:'',
+			bachelorCGPAPercentage:''
+	}
 	this.users = [];
 	$scope.orderByMe = function(x) {
 		$scope.myOrderBy = x;
@@ -87,6 +92,7 @@ app.controller('UserController',['$scope','UserService','$cookies','$location','
 				function(d){
 					$cookieStore.put('currentUser',d);
 					$rootScope.currentUser=d;
+					$rootScope.myUser=$rootScope.currentUser;
 					var role=$rootScope.currentUser.userRole;
 			    	if(role==='ROLE_USER'){
 					$location.path("/goUserHome")
@@ -163,6 +169,22 @@ app.controller('UserController',['$scope','UserService','$cookies','$location','
 				function(d){
 					$rootScope.friends=d;
 					$location.path("/goFriendsView")
+				},
+				function(errResponse){
+					console.error('Error while accpting friends');
+				});
+	};
+	this.submitQualification=function(){
+		console.log("Submitting Qualification of user")
+		this.user=$cookieStore.get('currentUser');
+		this.user.userQualification=this.qualification;
+		UserService.submitQualification(this.user)
+		.then(
+				function(d){
+					$rootScope.user=d;
+					$cookieStore.remove('currentUser');
+					$cookieStore.put('currentUser',d);
+					$location.path("/goJobViewAll")
 				},
 				function(errResponse){
 					console.error('Error while accpting friends');

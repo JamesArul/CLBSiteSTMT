@@ -1,0 +1,11 @@
+<div ng-include="'Common/CommonHeader.html'"></div>
+<div ng-controller="JobController as jtrl">
+<div ng-if="isUser">
+<button class="btn btn-info">View Jobs</button>
+</div>
+<div ng-if="isAdmin">
+<a href="#" data-toggle="tooltip" data-placement="top" title="Post new Job Offers in website">
+<button class="btn btn-info" ng-click="">Post Job</button>
+</a>
+</div>
+</div>

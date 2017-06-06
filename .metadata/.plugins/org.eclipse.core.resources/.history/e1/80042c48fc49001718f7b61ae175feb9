@@ -1,0 +1,6 @@
+<div ng-include="'Common/CommonHeader.html'"></div>
+<h2><center>Welcome {{myUser.userName}}</center></h2><br/>
+<h3>Your Access Priviledge : {{accessRight}}</h3>
+<div ng-if="{{myUser.userRole}}==='ROLE_USER'"><div ng-init="accessRight=USER"></div></div>
+<div ng-if="{{myUser.userRole}}===="ROLE_ADMIN""><div ng-init="accessRight=ADMIN"></div></div>
+<div ng-include="'Common/CommonHome.html'"></div>

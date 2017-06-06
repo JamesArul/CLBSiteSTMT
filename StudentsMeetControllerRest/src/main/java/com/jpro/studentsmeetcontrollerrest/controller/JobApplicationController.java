@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.jpro.studentsmeetbackend.dao.JobApplicationDAO;
+import com.jpro.studentsmeetbackend.dao.JobDAO;
+import com.jpro.studentsmeetbackend.model.Job;
 import com.jpro.studentsmeetbackend.model.JobApplication;
 
 @RestController
@@ -25,20 +27,23 @@ public class JobApplicationController {
 	private JobApplication jobApplication;
 	
 	@Autowired
+	private JobDAO jobDAO;
+	
+	@Autowired
 	private JobApplicationDAO jobApplicationDAO;
 	
 	//Test
 	@PostMapping("/createJobApplication")
-	public String createJobApplication(@RequestBody JobApplication newJobApplication){
+	public ResponseEntity<List<Job>> createJobApplication(@RequestBody JobApplication newJobApplication){
 		log.debug("Creating JobApplication");
 		boolean valid=jobApplicationDAO.createJobApplication(newJobApplication);
 		if(valid){
 			log.debug("JobApplication created");
-			return "Success";
+			return new ResponseEntity<List<Job>>(jobDAO.getAllJobs(),HttpStatus.OK);
 		}
 		else{
 			log.debug("JobApplication not created");
-			return "Error";
+			return null;
 		}
 	}
 
@@ -58,16 +63,16 @@ public class JobApplicationController {
 	}
 
 	@PostMapping("/updateJobApplication")
-	public String updateJobApplication(@RequestBody JobApplication updateJobApplication){
+	public ResponseEntity<List<Job>> updateJobApplication(@RequestBody JobApplication updateJobApplication){
 		log.debug("Creating JobApplication");
 		boolean valid=jobApplicationDAO.updateJobApplication(updateJobApplication);
 		if(valid){
 			log.debug("JobApplication updated");
-			return "Success";
+			return new ResponseEntity<List<Job>>(jobDAO.getAllJobs(),HttpStatus.OK);
 		}
 		else{
 			log.debug("JobApplication not updated");
-			return "Error";
+			return null;
 		}
 	}
 	

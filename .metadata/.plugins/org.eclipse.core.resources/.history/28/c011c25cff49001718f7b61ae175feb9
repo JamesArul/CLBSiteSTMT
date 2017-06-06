@@ -1,0 +1,9 @@
+<div ng-include="'Common/CommonHeader.html'"></div>
+<div ng-controller="JobController as jtrl">
+<div ng-if="isUser">
+<button class="btn btn-info">View Jobs</button>
+</div>
+<div ng-if="isAdmin">
+<button class="btn btn-info" ng-click="">Manage Job Applications</button>
+</div>
+</div>
