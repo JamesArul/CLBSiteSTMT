@@ -68,6 +68,10 @@ app.config(function($routeProvider) {
 		templateUrl:'User/UserViewAll.html',
 		controller:'UserController'
 	})
+	.when('/goFriendsAccept',{
+		templateUrl:'User/UserAcceptFriends.html',
+		controller:'UserController'
+	})
 	.when('/goAdminHome',{
 		templateUrl : 'Admin/AdminHome.html',
 		controller : 'UserController'
@@ -130,6 +134,14 @@ app.config(function($routeProvider) {
 	})
 	.when('/goJobAppViewAll',{
 		templateUrl:'Job/JobApplicationViewAll.html',
+		controller:'JobController'
+	})
+	.when('/goJobAdminViewAll',{
+		templateUrl:'Job/JobAdminViewAll.html',
+		controller:'JobController'
+	})
+	.when('/goMyApplicationView',{
+		templateUrl:'Job/JobUserApplications.html',
 		controller:'JobController'
 	})
 	.otherwise({

@@ -12,7 +12,8 @@
     <tbody>
       <tr ng-repeat="x in friends">
         <td>{{x.friendId}}</td>        
-        <td><button class="btn btn-default" ng-click='ctrl.acceptRequest(x.friendId)' >Start Chat</button></td>
+        <td><button class="btn btn-default" ng-click='ctrl.acceptRequest(x.friendId)' >Add</button>
+        <button class="btn btn-default" ng-click='ctrl.rejFriend(x.userID)' >Reject</button></td>
       </tr>
     </tbody>
   </table>

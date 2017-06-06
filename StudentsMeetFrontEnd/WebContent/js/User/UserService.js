@@ -78,6 +78,51 @@ app.service('UserService', ['$http', '$q','$rootScope', function($http, $q,$root
 						console.error('Error while updating user..UserService');
 						return $q.reject(errResponse);
 					});
-		}
+		},
+		addFriend : function(firend){
+			return $http.post(BASE_URL+'sendFriendRequest/',firend)
+			.then(
+					function(response){
+						return response.data;
+					},
+					function(errResponse){
+						console.error('Error while ADDING user as friend..UserService');
+						return $q.reject(errResponse);
+					});
+		},
+		rejectFriend : function(firend){
+			return $http.post(BASE_URL+'rejectRequest/',firend)
+			.then(
+					function(response){
+						return response.data;
+					},
+					function(errResponse){
+						console.error('Error while ADDING user as friend..UserService');
+						return $q.reject(errResponse);
+					});
+		},
+		acceptFriend : function(firend){
+			return $http.post(BASE_URL+'acceptFriendRequest/',firend)
+			.then(
+					function(response){
+						return response.data;
+					},
+					function(errResponse){
+						console.error('Error while ADDING user as friend..UserService');
+						return $q.reject(errResponse);
+					});
+		},
+		getFriendsReq : function(userID){
+			console.log("Getting user Friends..UserService")
+			return $http.get(BASE_URL+'getFriendsReqOfUser/'+userID)
+			.then(
+					function(response){
+						return response.data;
+					},
+					function(errResponse){
+						console.error('Error while getting freinds..UserService');
+						return $q.reject(errResponse);
+					});
+		}		
 	}
 	}])

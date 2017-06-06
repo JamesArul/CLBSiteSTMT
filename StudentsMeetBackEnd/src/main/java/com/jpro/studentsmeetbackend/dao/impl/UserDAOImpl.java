@@ -33,6 +33,7 @@ public class UserDAOImpl implements UserDAO {
 	public boolean createUser(User user) {
 		try{
 			user.setLastSeenOnline(new Date());
+			user.setUserRole("ROLE_USER");
 			sessionFactory.getCurrentSession().save(user);
 			return true;
 		}
@@ -67,12 +68,18 @@ public class UserDAOImpl implements UserDAO {
 	}
 	
 	public List<Friend> getFriendsOfUser(String userID){
-		String sql="select * from STMT_USER_FRIENDS where USERID=:userID and FRIENDSTATUS='Friend'";
+		String sql="select * from STMT_USER_FRIENDS where USERID=:userID and FRIENDSTATUS='Request received'";
 		SQLQuery query=sessionFactory.getCurrentSession().createSQLQuery(sql);
 		query.setParameter("userID", userID);
 		return query.list();
 	}
 
+	public List<Friend> getFriendsReqOfUser(String userID){
+		String sql="select * from STMT_USER_FRIENDS where USERID=:userID and FRIENDSTATUS='Friend'";
+		SQLQuery query=sessionFactory.getCurrentSession().createSQLQuery(sql);
+		query.setParameter("userID", userID);
+		return query.list();
+	}
 
 	public boolean userValidate(String userID, String userPassword) {
 			User user=getUserById(userID);

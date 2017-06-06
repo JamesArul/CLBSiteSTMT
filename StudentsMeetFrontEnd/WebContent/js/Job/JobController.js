@@ -129,7 +129,7 @@ app.controller('JobController',['$scope','JobService','$location','$rootScope','
 		JobService.acceptApplication(jobAppID)
 		.then(
 				function(d){
-					$rootScope.jobs=d;
+					$rootScope.jobsApplications=d;
 					$location.path("/goJobAppViewAll")
 				},
 				function(errResponse){
@@ -140,8 +140,31 @@ app.controller('JobController',['$scope','JobService','$location','$rootScope','
 		JobService.rejectApplication(jobAppID)
 		.then(
 				function(d){
-					$rootScope.jobs=d;
+					$rootScope.jobsApplications=d;
 					$location.path("/goJobAppViewAll")
+				},
+				function(errResponse){
+					console.error('Error getting jobs')
+				});
+	}
+	this.getJobsAdmin=function(){
+		JobService.getAllJobs()
+		.then(
+				function(d){
+					$rootScope.jobs=d;
+					$location.path("/goJobAdminViewAll")
+				},
+				function(errResponse){
+					console.error('Error getting jobs')
+				});
+	};
+	this.getUserAppl=function(){
+		this.user=$cookieStore.get('currentUser');
+		JobService.getApplicOfUser(this.user.userId)
+		.then(
+				function(d){
+					$rootScope.myjobs=d;
+					$location.path("/goMyApplicationView")
 				},
 				function(errResponse){
 					console.error('Error getting jobs')

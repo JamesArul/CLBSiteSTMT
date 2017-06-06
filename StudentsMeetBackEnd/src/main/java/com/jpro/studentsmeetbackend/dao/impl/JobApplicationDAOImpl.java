@@ -68,4 +68,7 @@ public class JobApplicationDAOImpl implements JobApplicationDAO {
 		return sessionFactory.getCurrentSession().createQuery("from JobApplication").list();
 	}
 
+	public List<JobApplication> getUserApplications(String userID){
+		return sessionFactory.getCurrentSession().createQuery("from JobApplication where jobApplicantId='"+userID+"'").list();
+	}
 }

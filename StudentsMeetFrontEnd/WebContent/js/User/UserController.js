@@ -189,5 +189,47 @@ app.controller('UserController',['$scope','UserService','$cookies','$location','
 				function(errResponse){
 					console.error('Error while accpting friends');
 				});
+	};
+	this.addFriend=function(userid){
+		this.user=$cookieStore.get('currentUser');
+		this.friend.userID=this.user.userID;
+		this.friend.friendId=userid;
+		UserService.addFriend(this.friend)
+		.then(
+				function(d){
+					$rootScope.friends=d;
+					$location.path("/goFriendsView")
+				},
+				function(errResponse){
+					console.error('Error while retreiving friends');
+				});
+
+	}
+	this.rejFriend=function(userid){
+		this.user=$cookieStore.get('currentUser');
+		this.friend.userID=this.user.userID;
+		this.friend.friendId=userid;
+		UserService.rejectFriend(this.friend)
+		.then(
+				function(d){
+					$rootScope.friends=d;
+					$location.path("/goFriendsView")
+				},
+				function(errResponse){
+					console.error('Error while retreiving friends');
+				});
+
+	};
+	this.getFriendRequests=function(){
+		this.user=$cookieStore.get('currentUser');
+		UserService.getFriendsReq(this.user.userID)
+		.then(
+				function(d){
+					$rootScope.friends=d;
+					$location.path("/goFriendsAccept");
+				},
+				function(errResponse){
+					console.error('Error while retreiving friends');
+				});
 	}
 }])

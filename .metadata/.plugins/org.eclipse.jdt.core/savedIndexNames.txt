@@ -60,6 +60,5 @@ INDEX VERSION 1.129+F:\EclipseMain\FinalProject\StudentsMeet\.metadata\.plugins\
 1300278492.index
 2274965158.index
 1821198896.index
-1573608269.index
 353039413.index
 3481451297.index

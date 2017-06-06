@@ -80,6 +80,17 @@ app.service('JobService', ['$http', '$q','$rootScope', function($http, $q,$rootS
 	                        console.error('Error while applying for job..JobService');
 	                        return $q.reject(errResponse);
 	                    });
+			},
+			getApplicOfUser : function(userID){
+				return $http.get(BASE_URL+'getUserApplications/'+userID)
+				.then(
+						function(response){
+	                        return response.data;
+	                    }, 
+	                    function(errResponse){
+	                        console.error('Error while applying for job..JobService');
+	                        return $q.reject(errResponse);
+	                    });
 			}
 		}
 }])

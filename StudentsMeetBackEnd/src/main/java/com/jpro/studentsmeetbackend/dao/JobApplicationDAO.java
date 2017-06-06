@@ -15,5 +15,5 @@ public interface JobApplicationDAO {
 	
 	public List<JobApplication> getAllJobApplication();
 
-
+	public List<JobApplication> getUserApplications(String userID);
 }

@@ -121,5 +121,10 @@ public class JobApplicationController {
 			return null;
 		}
 	}
+	
+	@GetMapping("/getUserApplications/{userID}")
+	public ResponseEntity<List<JobApplication>> getApplicationUser(@PathVariable("userID") String userID){
+		return new ResponseEntity<List<JobApplication>>(jobApplicationDAO.getUserApplications(userID),HttpStatus.OK);
+	}
 
 }
