@@ -95,5 +95,31 @@ public class JobApplicationController {
 		log.debug("Getting all JobApplication");
 		return new ResponseEntity<List<JobApplication>>(jobApplicationDAO.getAllJobApplication(),HttpStatus.OK);
 	}
+	
+	@GetMapping("/rejectapplication/{jobAppId}")
+	public ResponseEntity<List<JobApplication>> reject(@PathVariable("jobAppId") long jobAppID){
+		JobApplication jobApp=jobApplicationDAO.getJobApplicationById(jobAppID);
+		jobApp.setApplicationStatus("Rejected");
+		boolean valid=jobApplicationDAO.updateJobApplication(jobApp);
+		if(valid){
+			return new ResponseEntity<List<JobApplication>>(jobApplicationDAO.getAllJobApplication(),HttpStatus.OK);
+		}
+		else{
+			return null;
+		}
+	}
+	
+	@GetMapping("/acceptapplication/{jobAppId}")
+	public ResponseEntity<List<JobApplication>> accept(@PathVariable("jobAppId") long jobAppID){
+		JobApplication jobApp=jobApplicationDAO.getJobApplicationById(jobAppID);
+		jobApp.setApplicationStatus("Selected");
+		boolean valid=jobApplicationDAO.updateJobApplication(jobApp);
+		if(valid){
+			return new ResponseEntity<List<JobApplication>>(jobApplicationDAO.getAllJobApplication(),HttpStatus.OK);
+		}
+		else{
+			return null;
+		}
+	}
 
 }

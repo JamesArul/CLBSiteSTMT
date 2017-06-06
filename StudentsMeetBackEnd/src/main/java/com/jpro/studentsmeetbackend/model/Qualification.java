@@ -1,7 +1,5 @@
 package com.jpro.studentsmeetbackend.model;
 
-import java.math.BigDecimal;
-
 import javax.persistence.Embeddable;
 import javax.validation.constraints.DecimalMax;
 import javax.validation.constraints.DecimalMin;
@@ -11,37 +9,37 @@ public class Qualification extends BaseDomain {
 	
 	@DecimalMin("0.00")
 	@DecimalMax("100.00")
-	private BigDecimal tenthPercentage;
+	private float tenthPercentage;
 	
 	@DecimalMin("0.00")
 	@DecimalMax("100.00")
-	private BigDecimal twelfthPercentage;
+	private float twelfthPercentage;
 	
 	@DecimalMin("0.00")
 	@DecimalMax("100.00")
-	private BigDecimal bachelorCGPAPercentage;
+	private float bachelorCGPAPercentage;
 
-	public BigDecimal getTenthPercentage() {
+	public float getTenthPercentage() {
 		return tenthPercentage;
 	}
 
-	public void setTenthPercentage(BigDecimal tenthPercentage) {
+	public void setTenthPercentage(float tenthPercentage) {
 		this.tenthPercentage = tenthPercentage;
 	}
 
-	public BigDecimal getTwelfthPercentage() {
+	public float getTwelfthPercentage() {
 		return twelfthPercentage;
 	}
 
-	public void setTwelfthPercentage(BigDecimal twelfthPercentage) {
+	public void setTwelfthPercentage(float twelfthPercentage) {
 		this.twelfthPercentage = twelfthPercentage;
 	}
 
-	public BigDecimal getBachelorCGPAPercentage() {
+	public float getBachelorCGPAPercentage() {
 		return bachelorCGPAPercentage;
 	}
 
-	public void setBachelorCGPAPercentage(BigDecimal bachelorCGPAPercentage) {
+	public void setBachelorCGPAPercentage(float bachelorCGPAPercentage) {
 		this.bachelorCGPAPercentage = bachelorCGPAPercentage;
 	}
 	

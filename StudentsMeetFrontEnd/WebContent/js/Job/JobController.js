@@ -7,7 +7,11 @@ app.controller('JobController',['$scope','JobService','$location','$rootScope','
 		jobName:'',
 		jobDescription:'',
 		lastDateToApply:'',
-		requiredQualification:[],
+		requiredQualification:{
+			tenthPercentage : '',
+			twelfthPercentage : '',
+			bachelorCGPAPercentage : ''
+		},
 		jobSalary:'',
 		jobStatus:''
 	};
@@ -20,6 +24,7 @@ app.controller('JobController',['$scope','JobService','$location','$rootScope','
 		applicantQualification:[],
 		applicationStatus:''
 	};
+	this.isUser='';
 	this.user={
 			errorCode : '',
 			errorMsg : '',
@@ -38,10 +43,11 @@ app.controller('JobController',['$scope','JobService','$location','$rootScope','
 			userImage : ''
 		};
 	this.putJob=function(){
-		$loaction.path("/goPostJob")
+		$location.path("/goPostJob")
 	};
-	this.createBlog=function(){
+	this.createJob=function(){
 		console.log("Creating job")
+		this.isUser=false;
 		JobService.createJob(this.job)
 		.then(
 				function(d){
@@ -57,20 +63,13 @@ app.controller('JobController',['$scope','JobService','$location','$rootScope','
 		var qualCheckTenth=this.user.userQualification.tenthPercentage;
 		var qualCheckTwelfth=this.user.userQualification.twelfthPercentage;
 		var qualCheckDegree=this.user.userQualification.bachelorCGPAPercentage;
+		this.getJobByID(jobid);
 		var elTenth=$rootScope.job.requiredQualification.tenthPercentage;
 		var elTwelth=$rootScope.job.requiredQualification.twelfthPercentage;
 		var elDegree=$rootScope.job.requiredQualification.bachelorCGPAPercentage;
 		if(qualCheckTenth==='' || qualCheckTwelfth===''|| qualCheckDegree===''){
 			$location.path("/goUserQualification")
 		}
-		JobService.getJobById(jobId)
-		.then(
-				function(d){
-					$rootScope.job=d;					
-				},
-				function(errResponse){
-					console.error('Error applying job')
-				});
 		if(qualCheckTenth < elTenth || qualCheckTwelfth < elTwelth || qualCheckDegree < elDegree)
 		{
 			alert("Not Eligible")
@@ -79,8 +78,18 @@ app.controller('JobController',['$scope','JobService','$location','$rootScope','
 			$location.path("/goJobApply")
 		}
 	};
+	this.getJobByID=function(jobid){
+		JobService.getJobById(jobid)
+		.then(
+				function(d){
+					$rootScope.job=d;					
+				},
+				function(errResponse){
+					console.error('Error applying job')
+				});
+	}
 	this.getJobs=function(){
-		BlogserVice.getAllJobs()
+		JobService.getAllJobs()
 			.then(
 					function(d){
 						$rootScope.jobs=d;
@@ -91,11 +100,11 @@ app.controller('JobController',['$scope','JobService','$location','$rootScope','
 					});
 	};
 	this.getJobApplications=function(){
-		BlogService.getAllJobApplications()
+		JobService.getAllJobApplications()
 		.then(
 				function(d){
 					$rootScope.jobsApplications=d;
-					$location.path("/goJobApplicationViewAll")
+					$location.path("/goJobAppViewAll")
 				},
 				function(errResponse){
 					console.error('Error getting jobs')
@@ -106,5 +115,36 @@ app.controller('JobController',['$scope','JobService','$location','$rootScope','
 		this.jobApplication.jobApplicantId=this.user.userId;
 		this.jobApplication.jobAppliedId=$rootScope.job.jobId;
 		this.jobApplication.applicantQualification=this.user.userQualification;
+		JobService.submitJobApplication(this.jobApplication)
+		.then(
+				function(d){
+					$rootScope.jobs=d;
+					$location.path("/goJobViewAll")
+				},
+				function(errResponse){
+					console.error('Error getting jobs')
+				});
+	};
+	this.acceptJobAppl=function(jobAppID){
+		JobService.acceptApplication(jobAppID)
+		.then(
+				function(d){
+					$rootScope.jobs=d;
+					$location.path("/goJobAppViewAll")
+				},
+				function(errResponse){
+					console.error('Error getting jobs')
+				});
+	};
+	this.rejectJobAppl=function(jobAppID){
+		JobService.rejectApplication(jobAppID)
+		.then(
+				function(d){
+					$rootScope.jobs=d;
+					$location.path("/goJobAppViewAll")
+				},
+				function(errResponse){
+					console.error('Error getting jobs')
+				});
 	}
 }])

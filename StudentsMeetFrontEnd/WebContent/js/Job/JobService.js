@@ -47,6 +47,39 @@ app.service('JobService', ['$http', '$q','$rootScope', function($http, $q,$rootS
 	                        console.error('Error while geting jobs..JobService');
 	                        return $q.reject(errResponse);
 	                    });
+			},
+			submitJobApplication : function(jobApplication){
+				return $http.post(BASE_URL+'createJobApplication/',jobApplication)
+				.then(
+						function(response){
+	                        return response.data;
+	                    }, 
+	                    function(errResponse){
+	                        console.error('Error while applying for job..JobService');
+	                        return $q.reject(errResponse);
+	                    });
+			},
+			acceptApplication : function(jobid){
+				return $http.get(BASE_URL+'acceptapplication/'+jobid)
+				.then(
+						function(response){
+	                        return response.data;
+	                    }, 
+	                    function(errResponse){
+	                        console.error('Error while applying for job..JobService');
+	                        return $q.reject(errResponse);
+	                    });
+			},
+			rejectApplication : function(jobid){
+				return $http.get(BASE_URL+'rejectapplication/'+jobid)
+				.then(
+						function(response){
+	                        return response.data;
+	                    }, 
+	                    function(errResponse){
+	                        console.error('Error while applying for job..JobService');
+	                        return $q.reject(errResponse);
+	                    });
 			}
 		}
 }])

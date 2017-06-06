@@ -112,6 +112,26 @@ app.config(function($routeProvider) {
 		templateUrl : 'Job/JobHome.html',
 		controller : 'JobController'
 	})
+	.when('/goPostJob',{
+		templateUrl:'Job/JobPost.html',
+		controller:'JobController'
+	})
+		.when('/goJobViewAll',{
+		templateUrl:'Job/JobViewAll.html',
+		controller:'JobController'
+	})
+	.when('/goUserQualification',{
+		templateUrl:'User/UserQualification.html',
+		controller:'UserController'
+	})
+	.when('/goJobApply',{
+		templateUrl:'Job/JobApply.html',
+		controller:'JobController'
+	})
+	.when('/goJobAppViewAll',{
+		templateUrl:'Job/JobApplicationViewAll.html',
+		controller:'JobController'
+	})
 	.otherwise({
 		redirectTo : '/'
 	});

@@ -1,0 +1,19 @@
+<div ng-include="'Common/CommonHeader.html'"></div>
+<div ng-controller="JobController as jtrl">
+<center>
+<div ng-if="isUser">
+<button class="btn btn-info" ng-click="jtrl.getJobs()">View Jobs</button>
+<button class="btn btn-info" ng-click="">My Job Apllications</button>
+</div>
+</center>
+<center></center>
+<div ng-if="isAdmin">
+<a href="#" data-toggle="tooltip" data-placement="top" title="Post new Job Offers in website">
+<button class="btn btn-info"><a href="#!/goPostJob">Post Job</a></button>
+</a>
+<a href="#" data-toggle="tooltip" data-placement="top" title="Manage Job Applications of users">
+<button class="btn btn-info" ng-click="jtrl.getJobApplications()">Manage Job Application</button>
+</a>
+</div>
+</center>
+</div>
