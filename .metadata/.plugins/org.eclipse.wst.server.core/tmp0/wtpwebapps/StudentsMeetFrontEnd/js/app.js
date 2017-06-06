@@ -56,6 +56,10 @@ app.config(function($routeProvider) {
 		templateUrl: 'Forum/ForumViewAll.html',
 		controller : 'ForumController'
 	})
+	.when('/goForumManage',{
+		templateUrl:'Admin/ManageForum.html',
+		controller:'ForumController'
+	})
 	.when('/goForumView',{
 		templateUrl : 'Forum/ForumView.html',
 		controller : 'ForumController'

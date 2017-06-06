@@ -50,6 +50,39 @@ app.service('ForumService', ['$http', '$q','$rootScope', function($http, $q,$roo
 	                        console.error('Error while submiting msg to forum..ForumService');
 	                        return $q.reject(errResponse);
 	                    });
+			},
+			reportMsg : function(fmID){
+				return $http.get(BASE_URL+'reportForumMessage/'+fmID)
+				.then(
+						function(response){
+	                        return response.data;
+	                    }, 
+	                    function(errResponse){
+	                        console.error('Error while reporting msg in forum..ForumService');
+	                        return $q.reject(errResponse);
+	                    });
+			},
+			getAllReportMsg : function(){
+				return $http.get(BASE_URL+'getForumRepMsg')
+				.then(
+						function(response){
+	                        return response.data;
+	                    }, 
+	                    function(errResponse){
+	                        console.error('Error while reporting msg in forum..ForumService');
+	                        return $q.reject(errResponse);
+	                    });
+			},
+			removeMsg : function(fmid){
+				return $http.get(BASE_URL+'removeForumMessage/'+fmid)
+				.then(
+						function(response){
+	                        return response.data;
+	                    }, 
+	                    function(errResponse){
+	                        console.error('Error while reporting msg in forum..ForumService');
+	                        return $q.reject(errResponse);
+	                    });
 			}
 		}
 }])

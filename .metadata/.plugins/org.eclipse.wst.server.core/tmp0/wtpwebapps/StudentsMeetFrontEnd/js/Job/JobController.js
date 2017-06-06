@@ -112,7 +112,7 @@ app.controller('JobController',['$scope','JobService','$location','$rootScope','
 	};
 	this.submitJobApplication=function(){
 		this.user=$cookieStore.get('currentUser');
-		this.jobApplication.jobApplicantId=this.user.userId;
+		this.jobApplication.jobApplicantId=this.user.userID;
 		this.jobApplication.jobAppliedId=$rootScope.job.jobId;
 		this.jobApplication.applicantQualification=this.user.userQualification;
 		JobService.submitJobApplication(this.jobApplication)
@@ -160,7 +160,7 @@ app.controller('JobController',['$scope','JobService','$location','$rootScope','
 	};
 	this.getUserAppl=function(){
 		this.user=$cookieStore.get('currentUser');
-		JobService.getApplicOfUser(this.user.userId)
+		JobService.getApplicOfUser(this.user.userID)
 		.then(
 				function(d){
 					$rootScope.myjobs=d;

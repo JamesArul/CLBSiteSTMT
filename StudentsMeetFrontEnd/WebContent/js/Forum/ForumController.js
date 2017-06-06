@@ -66,5 +66,38 @@ app.controller('ForumController',['$scope','ForumService','$cookies','$location'
 				function(errResponse){
 					console.error('Error while getting Forum');
 				});
+	};
+	this.reportMessage=function(fmId){
+		ForumService.reportMsg(fmId)
+		.then(
+				function(d){
+					$rootScope.forum=d;
+					$location.path("/goForumView")
+				},
+				function(errResponse){
+					console.error('Error while getting Forum');
+				});
+	};
+	this.manageForum=function(){
+		ForumService.getAllReportMsg()
+		.then(
+				function(d){
+					$rootScope.repforum=d;
+					$location.path("/goForumManage")
+				},
+				function(errResponse){
+					console.error('Error while getting Forum');
+				});
+	};
+	this.removeMessage=function(fmid){
+		ForumService.removeMsg(fmid)
+		.then(
+				function(d){
+					$rootScope.repforum=d;
+					$location.path("/goForumManage")
+				},
+				function(errResponse){
+					console.error('Error while getting Forum');
+				});
 	}
 }])

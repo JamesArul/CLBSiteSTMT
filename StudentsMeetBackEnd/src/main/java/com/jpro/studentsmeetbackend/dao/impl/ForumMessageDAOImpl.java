@@ -76,4 +76,7 @@ public class ForumMessageDAOImpl implements ForumMessageDAO {
 
 	}
 
+	public List<ForumMessage> getAllReportedMsg(){
+		return sessionFactory.getCurrentSession().createQuery("from ForumMessage where reportMessage='Y'").list();
+	}
 }

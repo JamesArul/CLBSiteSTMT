@@ -2,9 +2,13 @@
 <div ng-controller="ForumController as ftrl">
 <center><h1>{{forum.forumName}}</h1></center>
 <center><h4>Forum Messages</h4></center>
-<p ng-repeat="x in forum.messages">
+<div ng-repeat="x in forum.messages">
+<p>
 {{x.userId}} on {{x.msgTime}}<br/>
 {{x.msgData}}</p>
+<div ng-if="x.reportMessage==='N'"><button class="btn btn-danger" ng-click="ftrl.reportMessage(x.forumMessageID)">Report Message</button></div>
+<div ng-if="x.reportMessage==='Y'">This message has been reported</div>
+</div>
 <form ng-submit="ftrl.submitMsg()" id="msgForm">
 <textarea rows="8" cols="40" form="msgForm" ng-model="ftrl.message.msgData">Enter Message...</textarea><br/>
 <input type="submit" value="Post Message">

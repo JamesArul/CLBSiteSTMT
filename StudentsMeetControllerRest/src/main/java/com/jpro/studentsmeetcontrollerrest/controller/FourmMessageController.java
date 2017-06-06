@@ -13,7 +13,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.jpro.studentsmeetbackend.dao.ForumDAO;
 import com.jpro.studentsmeetbackend.dao.ForumMessageDAO;
+import com.jpro.studentsmeetbackend.model.Forum;
 import com.jpro.studentsmeetbackend.model.ForumMessage;
 
 @RestController
@@ -23,6 +25,9 @@ public class FourmMessageController {
 	
 	@Autowired
 	private ForumMessage fourmMessage;
+	
+	@Autowired
+	private ForumDAO forumDAO;
 	
 	@Autowired
 	private ForumMessageDAO forumMessageDAO;
@@ -44,7 +49,7 @@ public class FourmMessageController {
 		boolean valid=forumMessageDAO.removeForumMessage(fourmMessage);
 		if(valid)
 		{
-			return new ResponseEntity<List<ForumMessage>>(forumMessageDAO.getAllForumMessage(fourmMessage.getForumId()),HttpStatus.OK);
+			return new ResponseEntity<List<ForumMessage>>(forumMessageDAO.getAllReportedMsg(),HttpStatus.OK);
 		}
 		else{
 			return null;
@@ -56,11 +61,12 @@ public class FourmMessageController {
 		return new ResponseEntity<ForumMessage>(forumMessageDAO.getForumMessage(fmmsgId),HttpStatus.OK);
 	}
 	
-	@PostMapping("reportForumMessage")
-	public ResponseEntity<ForumMessage> reportForumMessage(@RequestBody ForumMessage forummsg){
+	@GetMapping("reportForumMessage/{fmID}")
+	public ResponseEntity<Forum> reportForumMessage(@PathVariable("fmID") long fmID){
+		ForumMessage forummsg=forumMessageDAO.getForumMessage(fmID);
 		boolean valid=forumMessageDAO.reportForumMessage(forummsg);
 		if(valid){
-			return new ResponseEntity<ForumMessage>(forummsg,HttpStatus.OK);
+			return new ResponseEntity<Forum>(forumDAO.getForumbyID(forummsg.getForumId()),HttpStatus.OK);
 		}
 		else{
 			return null;
@@ -70,6 +76,11 @@ public class FourmMessageController {
 	@GetMapping("/getAllForumMessage/{forumId}")
 	public ResponseEntity<List<ForumMessage>> getAllForumMessage(@PathVariable("forumId") long forumId){
 		return new ResponseEntity<List<ForumMessage>>(forumMessageDAO.getAllForumMessage(forumId),HttpStatus.OK);
+	}
+	
+	@GetMapping("/getForumRepMsg")
+	public ResponseEntity<List<ForumMessage>> getAllREpMsg(){
+		return new ResponseEntity<List<ForumMessage>>(forumMessageDAO.getAllReportedMsg(),HttpStatus.OK);
 	}
 	
 	@GetMapping("/getAllReportedForumMessage/{forumId}")

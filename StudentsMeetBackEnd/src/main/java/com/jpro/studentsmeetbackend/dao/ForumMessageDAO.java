@@ -17,5 +17,7 @@ public interface ForumMessageDAO {
 	public List<ForumMessage> getAllForumMessage(long forumId);
 	
 	public List<ForumMessage> getAllReportedMessage(long forumId);
+	
+	public List<ForumMessage> getAllReportedMsg();
 
 }
