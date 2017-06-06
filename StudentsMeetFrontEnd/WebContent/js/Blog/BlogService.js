@@ -110,6 +110,28 @@ app.service('BlogService', ['$http', '$q','$rootScope', function($http, $q,$root
                         console.error('Error while removing blog..BlogService');
                         return $q.reject(errResponse);
                     });
+		},
+		getReportedComments : function(){
+			return $http.get(BASE_URL+'getReportedComments')
+			.then(
+					function(response){
+                        return response.data;
+                    }, 
+                    function(errResponse){
+                        console.error('Error while getting reported comments in blog..BlogService');
+                        return $q.reject(errResponse);
+                    });
+		},
+		removeComment : function(commentID){
+			return $http.get(BASE_URL+'removeComment/'+commentID)
+			.then(
+					function(response){
+                        return response.data;
+                    }, 
+                    function(errResponse){
+                        console.error('Error while removing comment..BlogService');
+                        return $q.reject(errResponse);
+                    });
 		}
 	}
 }])

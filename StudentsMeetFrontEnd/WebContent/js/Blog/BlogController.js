@@ -197,5 +197,27 @@ app.controller('BlogController',['$scope','BlogService','$cookies','$location','
 				function(errResponse){
 					console.error('Error while deleting blog');
 				});
+	};
+	this.getReportedInBlogs=function(){
+		BlogService.getReportedComments()
+		.then(
+				function(d){
+					$rootScope.repcom=d;
+					$location.path("/goBlogManage")
+				},
+				function(errResponse){
+					console.error('Error while deleting blog');
+				});
+	};
+	this.removeComment=function(commentID){
+		BlogService.removeComment(commentID)
+		.then(
+				function(d){
+					$rootScope.repcom=d;
+					$location.path("/goBlogManage")
+				},
+				function(errResponse){
+					console.error('Error while deleting blog');
+				});
 	}
 }])

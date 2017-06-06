@@ -40,6 +40,10 @@ app.config(function($routeProvider) {
 		templateUrl : 'Blog/BlogEdit.html',
 		controller : 'BlogController'
 	})
+	.when('/goBlogManage',{
+		templateUrl:'Admin/ManageBlog.html',
+		controller:'BlogController'
+	})
 	.when('/goForumHome',{
 		templateUrl: 'Forum/ForumHome.html',
 		controller : 'ForumController'

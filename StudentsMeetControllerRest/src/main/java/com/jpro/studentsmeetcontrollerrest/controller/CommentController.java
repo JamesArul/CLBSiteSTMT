@@ -59,7 +59,7 @@ public class CommentController {
 		Comment comment=commentDAO.getComment(commentID);
 		boolean valid=commentDAO.removeComment(commentID);
 		if(valid){
-			return new ResponseEntity<List<Comment>>(commentDAO.getAllComments(comment.getBlogID()),HttpStatus.OK);
+			return new ResponseEntity<List<Comment>>(commentDAO.getReportedComment(),HttpStatus.OK);
 		}
 		else{
 			return null;
@@ -69,6 +69,11 @@ public class CommentController {
 	@GetMapping("/getAllReportedComments/{blogID}")
 	public ResponseEntity<List<Comment>> getAllReportedComments(@PathVariable("blogID") long blogID){
 		return new ResponseEntity<List<Comment>>(commentDAO.getAllReportedComments(blogID),HttpStatus.OK);
+	}
+	
+	@GetMapping("/getReportedComments")
+	public ResponseEntity<List<Comment>> getReportedComments(){
+		return new ResponseEntity<List<Comment>>(commentDAO.getReportedComment(),HttpStatus.OK);
 	}
 	
 	@PostMapping("/getComment/{commentID}")

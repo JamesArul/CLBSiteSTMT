@@ -81,4 +81,9 @@ public class CommentDAOImpl implements CommentDAO {
 		return sessionFactory.getCurrentSession().get(Comment.class, commentID);
 	}
 
+
+	public List<Comment> getReportedComment() {
+		return sessionFactory.getCurrentSession().createQuery("from Comment where reportComment='Y'").list();
+	}
+
 }

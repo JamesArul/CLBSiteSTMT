@@ -16,6 +16,8 @@ public interface CommentDAO {
 	
 	public List<Comment> getAllReportedComments(long blogID);
 	
+	public List<Comment> getReportedComment();
+	
 	public Comment getComment(long commentID);
 
 }

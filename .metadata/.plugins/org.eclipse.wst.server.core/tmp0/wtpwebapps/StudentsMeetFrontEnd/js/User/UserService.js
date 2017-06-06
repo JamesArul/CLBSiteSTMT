@@ -114,7 +114,7 @@ app.service('UserService', ['$http', '$q','$rootScope', function($http, $q,$root
 		},
 		getFriendsReq : function(userID){
 			console.log("Getting user Friends..UserService")
-			return $http.get(BASE_URL+'getAllFriendsOfUser/'+userID)
+			return $http.get(BASE_URL+'getFriendsReqOfUser/'+userID)
 			.then(
 					function(response){
 						return response.data;
@@ -123,7 +123,6 @@ app.service('UserService', ['$http', '$q','$rootScope', function($http, $q,$root
 						console.error('Error while getting freinds..UserService');
 						return $q.reject(errResponse);
 					});
-		}
-		
+		}		
 	}
 	}])

@@ -1,0 +1,7 @@
+<div ng-include="'Admin/AdminHome.html'"></div>
+<div ng-controller="UserController as ctrl">
+<center><h1>List of reported Blog Comments</h1></center>
+{{rblog.blogID}}
+{{rblog.blogData}}
+<button class="btn btn-danger">Remove</button>
+</div>
