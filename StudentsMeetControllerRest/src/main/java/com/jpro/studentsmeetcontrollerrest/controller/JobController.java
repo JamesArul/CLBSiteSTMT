@@ -89,6 +89,12 @@ private static final Logger log=LoggerFactory.getLogger(JobController.class);
 		log.debug("Getting all job");
 		return new ResponseEntity<List<Job>>(jobDAO.getAllJobs(),HttpStatus.OK);
 	}
+	
+	@GetMapping("/closejob/{jobID}")
+	public ResponseEntity<List<Job>> closeJob(@PathVariable("jobID") long jobId){
+		jobDAO.closeJob(jobId);
+		return new ResponseEntity<List<Job>>(jobDAO.getAllJobs(),HttpStatus.OK);
+	}
 
 
 }

@@ -65,5 +65,11 @@ public class JobDAOImpl implements JobDAO {
 	public List<Job> getAllJobs() {
 		return sessionFactory.getCurrentSession().createQuery("from Job").list();
 	}
+	
+	public void closeJob(long jobId){
+		Job job=getJobById(jobId);
+		job.setJobStatus("Closed");
+		updateJob(job);
+	}
 
 }

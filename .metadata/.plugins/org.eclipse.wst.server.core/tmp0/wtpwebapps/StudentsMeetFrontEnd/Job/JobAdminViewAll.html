@@ -9,6 +9,7 @@
         <th>Job Description</th>
         <th>Job Salary</th>
         <th>Job Status</th>
+        <th>Close Job</th>
       </tr>
     </thead>
     <tbody>
@@ -18,6 +19,7 @@
         <td>{{x.jobDescription}}</td>
         <td>{{x.jobSalary}}</td>    
         <td>{{x.jobStatus}}</td>
+        <td><button class="btn btn-default" ng-click='jtrl.closejob(x.jobId)')>Close Job</button>
       </tr>
     </tbody>
     </table>

@@ -169,5 +169,16 @@ app.controller('JobController',['$scope','JobService','$location','$rootScope','
 				function(errResponse){
 					console.error('Error getting jobs')
 				});
+	};
+	this.closejob=function(jobid){
+		JobService.closejob(jobid)
+		.then(
+				function(d){
+					$rootScope.jobs=d;
+					$location.path("/goJobAdminViewAll")
+				},
+				function(errResponse){
+					console.error('Error getting jobs')
+				});
 	}
 }])

@@ -14,5 +14,7 @@ public interface JobDAO {
 	public Job getJobById(long jobId);
 	
 	public List<Job> getAllJobs();
+	
+	public void closeJob(long jobId);
 
 }

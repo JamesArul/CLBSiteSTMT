@@ -165,8 +165,8 @@ app.run( function ($rootScope, $location, $cookies, $cookieStore, $http, UserSer
 	$rootScope.$on('$locationChangeStart', function (event, next, current) {
 		console.log("$locationChangeStart")		
 		$rootScope.currentUser= $cookieStore.get('currentUser') || {};
-		var userPage=['/goUserHome']
-		var adminPage=['/goBlogManage','/goAdmin']
+		var userPage=['/goUserHome','/goBlogHome','/goBlogCreate','/goBlogView','/goBlogViewAll','/goBlogsUser','/goBlogEdit','/goForumHome','/goForumCreate','/goForumViewAll','/goForumView','/goFriendHome']
+		var adminPage=['/goBlogManage','/goJobAdminViewAll','/goForumManage','/goJobAppViewAll','/goPostJob','/goBlogReportView']
 		var currentPage=$location.path()
 		var isUserPage = $.inArray(currentPage, userPage)
 		var isAdminPage = $.inArray(currentPage, adminPage)
@@ -179,7 +179,7 @@ app.run( function ($rootScope, $location, $cookies, $cookieStore, $http, UserSer
 	    			  $rootScope.notLogged=true;
 	    			  $rootScope.isUser=false;
 	    			  $rootScope.isAdmin=false;
-	    			  if(isUserPage===0 || isAdminPage ===0)
+	    			  if(isUserPage >=0 || isAdminPage >=0 )
 	    				  {
 		        	  console.log("Navigating to login page:")
 		        	  alert("You need to loggin to do this operation")
@@ -191,7 +191,7 @@ app.run( function ($rootScope, $location, $cookies, $cookieStore, $http, UserSer
 			$rootScope.notLogged=true;
 			$rootScope.isUser=false;
 			$rootScope.isAdmin=false;
-			if(isUserPage===0 || isAdminPage ===0)
+			if(isUserPage>=0 || isAdminPage >=0 )
 			  {
   	  console.log("Navigating to login page:")
   	  alert("You need to loggin to do this operation")
@@ -206,7 +206,7 @@ app.run( function ($rootScope, $location, $cookies, $cookieStore, $http, UserSer
 	    	$rootScope.isAdmin=false;
 	    	$rootScope.userrole="USER";
 	    	if(isAdminPage===0){
-	    		alert("You do not access to this operation")
+	    		alert("You do not have access to this operation")
 	    		$location.path('/goUserHome');
 	    	}
 	    	}
