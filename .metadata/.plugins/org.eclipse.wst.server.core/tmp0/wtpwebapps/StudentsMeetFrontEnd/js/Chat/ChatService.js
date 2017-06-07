@@ -74,6 +74,39 @@ app.service('ChatService', ['$http', '$q','$rootScope', function($http, $q,$root
 	                        console.error('Error while getting chat..ChatService');
 	                        return $q.reject(errResponse);
 	                    });
+			},
+			reportChat : function(chatid,userid){
+				return $http.get(BASE_URL+'reportchat/'+chatid+'/'+userid)
+				.then(
+						function(response){
+	                        return response.data;
+	                    }, 
+	                    function(errResponse){
+	                        console.error('Error while reporting chat..ChatService');
+	                        return $q.reject(errResponse);
+	                    });
+			},
+			getReportedChats : function(){
+				return $http.get(BASE_URL+'getChatReps')
+				.then(
+						function(response){
+	                        return response.data;
+	                    }, 
+	                    function(errResponse){
+	                        console.error('Error while getting reported chat..ChatService');
+	                        return $q.reject(errResponse);
+	                    });
+			},
+			removeChat : function(chatid){
+				return $http.get(BASE_URL+'removechat/'+chatid)
+				.then(
+						function(response){
+	                        return response.data;
+	                    }, 
+	                    function(errResponse){
+	                        console.error('Error while removing chat..ChatService');
+	                        return $q.reject(errResponse);
+	                    });
 			}
 		}
 }])

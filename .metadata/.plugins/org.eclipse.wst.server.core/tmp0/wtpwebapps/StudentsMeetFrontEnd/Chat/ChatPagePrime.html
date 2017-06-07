@@ -6,7 +6,15 @@
 <div ng-if="chat.isPrivateChat==='Y'">
 <center><h1>Private Chat : {{chat.creatorID}} {{chat.friendID}}</h1></center>
 </div>
+<div class="row">
+<div class="col-sm-4">
 <button class="btn btn-danger" ng-click="ctrl.quitChat()">Stop Chat</button>
+</div>
+<div class="col-sm-4">
+<button class="btn btn-danger" ng-click="ctrl.repChat(chat.chatId)">Report Chat</button>
+</div>
+</div>
+<br/>
 <form ng-submit="ctrl.addMessage()">
 <input type="text" ng-model="ctrl.chatMsg.chatMsg"><br/>
 <input type="submit" value="Send">

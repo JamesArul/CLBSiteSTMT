@@ -16,6 +16,11 @@ app.controller('ChatController',['$scope','ChatService','$location','$rootScope'
 			isOnline :'',
 			friendStatus :''
 	};
+	this.chatreport={
+			chat_reportId:'',
+			chatID:'',
+			userID:''
+	}
 	this.chatID='';
 	this.user={
 			errorCode : '',
@@ -142,5 +147,30 @@ app.controller('ChatController',['$scope','ChatService','$location','$rootScope'
 	};
 	this.gotoChat=function(chatID){
 		this.getChatByID(chatID);
+	};
+	this.repChat=function(chatid){
+		this.user=$cookieStore.get('currentUser');
+		ChatService.reportChat(chatid,this.user.userID)
+		.then(
+				function(d){
+					$rootScope.report=d;
+					$location.path("/goChatReportUSer")
+				});
+	};
+	this.manageChat=function(){
+		ChatService.getReportedChats()
+		.then(
+				function(d){
+					$rootScope.reports=d;
+					$location.path("/goManageChats")
+				});
+	};
+	this.removeChat=function(chatid){
+		ChatService.removeChat(chatid)
+		.then(
+				function(d){
+					$rootScope.reports=d;
+					$location.path("/goManageChats")
+				})
 	}
 }])

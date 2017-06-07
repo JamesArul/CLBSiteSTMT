@@ -14,8 +14,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.jpro.studentsmeetbackend.dao.ChatDAO;
+import com.jpro.studentsmeetbackend.dao.ReportChatDAO;
 import com.jpro.studentsmeetbackend.model.Chat;
 import com.jpro.studentsmeetbackend.model.ChatMessage;
+import com.jpro.studentsmeetbackend.model.ReportUserChat;
 
 @RestController
 public class ChatController {
@@ -27,6 +29,9 @@ private static final Logger log=LoggerFactory.getLogger(ChatController.class);
 	
 	@Autowired
 	private ChatDAO chatDAO;
+	
+	@Autowired
+	private ReportChatDAO reportChatDAO;
 	
 	@PostMapping("/createChat")
 	public ResponseEntity<Chat> createChat(@RequestBody Chat newChat){
@@ -95,5 +100,31 @@ private static final Logger log=LoggerFactory.getLogger(ChatController.class);
 		else{
 			return null;
 		}
+	}
+	
+	@GetMapping("/reportchat/{chatId}/{userId}")
+	public ResponseEntity<ReportUserChat> reportChat(@PathVariable("chatId") long chatID,@PathVariable("userId") String userID){
+		ReportUserChat report=new ReportUserChat();
+		report.setChatID(chatID);
+		report.setUserID(userID);
+		boolean valid=reportChatDAO.createReportChat(report);
+		if(valid){
+			return new ResponseEntity<ReportUserChat>(report,HttpStatus.OK);
+		}
+		else{
+			return null;
+		}
+	}
+	
+	@GetMapping("/getChatReps")
+	public ResponseEntity<List<ReportUserChat>> getReps(){
+		return new ResponseEntity<List<ReportUserChat>>(reportChatDAO.getAllReportsChat(),HttpStatus.OK);
+	}
+	
+	@GetMapping("/removechat/{chatid}")
+	public ResponseEntity<List<ReportUserChat>> removeChatRepByID(@PathVariable("chatid") long chatid){
+		chatDAO.removeChat(chatid);
+		reportChatDAO.removeByReportChat(chatid);
+		return new ResponseEntity<List<ReportUserChat>>(reportChatDAO.getAllReportsChat(),HttpStatus.OK);
 	}
 }

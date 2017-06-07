@@ -61,4 +61,15 @@ public class ReportChatDAOImpl implements ReportChatDAO {
 		return (ReportUserChat) sessionFactory.getCurrentSession().createQuery("from ReportUserChat where chat_reportId").uniqueResult();
 	}
 
+	public boolean removeByReportChat(long chat_reportId) {
+		ReportUserChat rep=(ReportUserChat) sessionFactory.getCurrentSession().createQuery("from ReportUserChat where chatID='"+chat_reportId+"'").uniqueResult();
+		try{
+			removeReportChat(rep);
+			return true;
+		}
+		catch(Exception e){
+			return false;
+		}
+	}
+
 }

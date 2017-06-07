@@ -12,6 +12,8 @@ public interface ReportChatDAO {
 	
 	public boolean removeReportChat(long chat_reportId);
 	
+	public boolean removeByReportChat(long chat_reportId);
+	
 	public List<ReportUserChat> getAllReportsChat();
 	
 	public ReportUserChat getReportChatById(long chat_reportId);
