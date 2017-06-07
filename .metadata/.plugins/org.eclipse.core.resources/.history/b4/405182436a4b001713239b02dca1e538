@@ -10,8 +10,8 @@
       </tr>
     </thead>
     <tbody>
-    	<td>{{report.chat_reportId}}</td>
-    	<td>{{report.userID}}</td>
+    	<td>{{x.chat_reportId}}</td>
+    	<td>{{x.userID}}</td>
     	<td>Not Processed</td>
     </tbody>
 </table>

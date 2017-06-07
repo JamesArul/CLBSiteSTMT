@@ -2,18 +2,13 @@ package com.jpro.studentsmeetbackend.dao.impl;
 
 import java.util.List;
 
-import javax.transaction.Transactional;
-
 import org.hibernate.SessionFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Repository;
 
 import com.jpro.studentsmeetbackend.dao.ReportChatDAO;
 import com.jpro.studentsmeetbackend.model.ReportUserChat;
 
-@Transactional
-@Repository("reportChatDAO")
 public class ReportChatDAOImpl implements ReportChatDAO {
 	
 	private static final Logger log=LoggerFactory.getLogger(ReportChatDAOImpl.class);
@@ -67,7 +62,7 @@ public class ReportChatDAOImpl implements ReportChatDAO {
 	}
 
 	public boolean removeByReportChat(long chat_reportId) {
-		ReportUserChat rep=(ReportUserChat) sessionFactory.getCurrentSession().createQuery("from ReportUserChat where chatID='"+chat_reportId+"'").list().get(0);
+		ReportUserChat rep=(ReportUserChat) sessionFactory.getCurrentSession().createQuery("from ReportUserChat where chatID='"+chat_reportId+"'").uniqueResult();
 		try{
 			removeReportChat(rep);
 			return true;
