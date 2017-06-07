@@ -8,7 +8,8 @@ app.controller('ChatController',['$scope','ChatService','$location','$rootScope'
 		isPrivateChat :'',
 		reportChat :'',
 		chatTopic :'',
-		chat_Messages : []
+		chat_Messages : [],
+		friendID : ''
 	};
 	this.friend={
 			friendId :'',
@@ -109,6 +110,37 @@ app.controller('ChatController',['$scope','ChatService','$location','$rootScope'
 				function(errResponse){
 					console.error('Error while adding msg chat');
 				});
+	};
+	this.startChat=function(friendID){
+		console.log("Creating private chat")
+		this.chat.isPrivateChat='Y';
+		this.user=$cookieStore.get('currentUser');
+		this.chat.creatorID=this.user.userID;
+		this.chat.friendID=friendID;
+		ChatService.createChat(this.chat)
+		.then(
+				function(d){
+					$rootScope.chat=d;
+					$location.path("/goChatPage")
+				},
+				function(errResponse){
+					console.error('Error while starting chat');
+				});
+	};
+	this.getPrivateChats=function(){
+		this.user=$cookieStore.get('currentUser');
+		$rootScope.curUser=$cookieStore.get('currentUser');
+		ChatService.getPrivateChats(this.user.userID)
+		.then(
+				function(d){
+					$rootScope.chats=d;
+					$location.path("/goChatsPrivate")
+				},
+				function(errResponse){
+					console.error('Error while getting private chats')
+				});
+	};
+	this.gotoChat=function(chatID){
+		this.getChatByID(chatID);
 	}
-	
 }])

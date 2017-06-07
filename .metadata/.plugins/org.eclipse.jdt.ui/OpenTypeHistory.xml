@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=StudentsMeetBackEnd/src\/main\/java&lt;com.jpro.studentsmeetbackend.dao{CommentDAO.java[CommentDAO" modifiers="513" timestamp="1496589909099"/>
+<typeInfo handle="=StudentsMeetBackEnd/src\/main\/java&lt;com.jpro.studentsmeetbackend.dao{CommentDAO.java[CommentDAO" modifiers="513" timestamp="1496740339281"/>
 <typeInfo handle="=StudentsMeetBackEnd/src\/main\/java&lt;com.jpro.studentsmeetbackend.dao{ChatDAO.java[ChatDAO" modifiers="513" timestamp="1496645861280"/>
 <typeInfo handle="=StudentsMeetBackEnd/src\/main\/java&lt;com.jpro.studentsmeetbackend.dao{ReportChatDAO.java[ReportChatDAO" modifiers="513" timestamp="1496049806835"/>
 <typeInfo handle="=StudentsMeetBackEnd/src\/main\/java&lt;com.jpro.studentsmeetbackend.dao{ForumDAO.java[ForumDAO" modifiers="513" timestamp="1496589904586"/>
-<typeInfo handle="=StudentsMeetBackEnd/src\/main\/java&lt;com.jpro.studentsmeetbackend.dao{ForumMessageDAO.java[ForumMessageDAO" modifiers="513" timestamp="1496122894114"/>
-<typeInfo handle="=StudentsMeetBackEnd/src\/main\/java&lt;com.jpro.studentsmeetbackend.dao{UserDAO.java[UserDAO" modifiers="513" timestamp="1496644544303"/>
+<typeInfo handle="=StudentsMeetBackEnd/src\/main\/java&lt;com.jpro.studentsmeetbackend.dao{ForumMessageDAO.java[ForumMessageDAO" modifiers="513" timestamp="1496743496412"/>
+<typeInfo handle="=StudentsMeetBackEnd/src\/main\/java&lt;com.jpro.studentsmeetbackend.dao{UserDAO.java[UserDAO" modifiers="513" timestamp="1496738339746"/>
 </typeInfoHistroy>

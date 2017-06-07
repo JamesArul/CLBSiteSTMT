@@ -1,7 +1,0 @@
-package com.jpro.studentsmeetbackend.dao.impl;
-
-import com.jpro.studentsmeetbackend.dao.JobApplicationDAO;
-
-public class JobApplicationDAOImpl implements JobApplicationDAO {
-
-}

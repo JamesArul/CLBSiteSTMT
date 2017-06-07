@@ -116,6 +116,10 @@ app.config(function($routeProvider) {
 		templateUrl:'Chat/ChatPagePrime.html',
 		controller:'ChatController'
 	})
+	.when('/goChatsPrivate',{
+		templateUrl: 'Chat/ChatViewPrivate.html',
+		controller:'ChatController'
+	})
 	.when('/goBlogReportView',{
 		templateUrl : 'Blog/BlogCommentReport.html',
 		controller : 'BlogController'

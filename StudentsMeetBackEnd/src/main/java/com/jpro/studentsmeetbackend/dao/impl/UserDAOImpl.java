@@ -2,6 +2,7 @@ package com.jpro.studentsmeetbackend.dao.impl;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -68,17 +69,41 @@ public class UserDAOImpl implements UserDAO {
 	}
 	
 	public List<Friend> getFriendsOfUser(String userID){
-		String sql="select * from STMT_USER_FRIENDS where USERID=:userID and FRIENDSTATUS='Request received'";
-		SQLQuery query=sessionFactory.getCurrentSession().createSQLQuery(sql);
-		query.setParameter("userID", userID);
-		return query.list();
-	}
-
-	public List<Friend> getFriendsReqOfUser(String userID){
 		String sql="select * from STMT_USER_FRIENDS where USERID=:userID and FRIENDSTATUS='Friend'";
 		SQLQuery query=sessionFactory.getCurrentSession().createSQLQuery(sql);
 		query.setParameter("userID", userID);
-		return query.list();
+		List<Object> queryList=query.list();
+		List<Friend> returnList=new ArrayList<Friend>();
+		Friend frd;
+		for(int i=0;i<queryList.size();i++){
+			frd=new Friend();
+			Object[] obj=(Object[]) queryList.get(i);
+			frd.setUserID((String) obj[0]);
+			frd.setFriendId((String) obj[1]);
+			frd.setFriendStatus((String)obj[2]);
+			frd.setIsOnline((Character)obj[3]);
+			returnList.add(frd);
+		}
+		return returnList;
+	}
+
+	public List<Friend> getFriendsReqOfUser(String userID){
+		String sql="select * from STMT_USER_FRIENDS where USERID=:userID and FRIENDSTATUS='Request received'";
+		SQLQuery query=sessionFactory.getCurrentSession().createSQLQuery(sql);
+		query.setParameter("userID", userID);
+		List<Object> queryList=query.list();
+		List<Friend> returnList=new ArrayList<Friend>();
+		Friend frd;
+		for(int i=0;i<queryList.size();i++){
+			frd=new Friend();
+			Object[] obj=(Object[]) queryList.get(i);
+			frd.setUserID((String) obj[0]);
+			frd.setFriendId((String) obj[1]);
+			frd.setFriendStatus((String)obj[2]);
+			frd.setIsOnline((Character)obj[3]);
+			returnList.add(frd);
+		}
+		return returnList;
 	}
 
 	public boolean userValidate(String userID, String userPassword) {

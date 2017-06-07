@@ -19,12 +19,22 @@ app.controller('UserController',['$scope','UserService','$cookies','$location','
 		userFriends : [],
 		userImage : ''
 	};
+	this.chat={
+			chatId :'',
+			creatorID : '',
+			isPrivateChat :'',
+			reportChat :'',
+			chatTopic :'',
+			chat_Messages : [],
+			friendID : ''
+		};
 	this.friend={
 			userID:'',
 			friendId:'',
 			friendStatus:'',
 			isOnline:''
 	};
+	this.friends=[];
 	$rootScope.currentUser ={
 			userID : '',
 			userName : '',
@@ -145,6 +155,7 @@ app.controller('UserController',['$scope','UserService','$cookies','$location','
 	};
 	this.getAllUsers=function(){
 		console.log("Getting all users")
+		this.getUserFriends()
 		UserService.getAllUsers()
 		.then(
 				function(d){
@@ -152,6 +163,15 @@ app.controller('UserController',['$scope','UserService','$cookies','$location','
 					var userid=this.user.userID;
 					var index=d.findIndex(x => x.userID==userid);
 					d.splice(index,1);
+					this.users=d;
+					this.friends=$rootScope.friends;
+					for(i=0;i<friends.length;i++){
+						for(j=0;j<users.length;j++){
+						if(friends[i].friendId===users[j].userID){
+							d.splice(j,1);
+						}
+						}
+					}
 					$rootScope.users=d;					
 					$location.path("/goViewUsers")
 				},
@@ -231,5 +251,21 @@ app.controller('UserController',['$scope','UserService','$cookies','$location','
 				function(errResponse){
 					console.error('Error while retreiving friends');
 				});
-	}
+	};
+	this.startChat=function(friendID){
+		console.log("Creating private chat")
+		this.chat.isPrivateChat='Y';
+		this.user=$cookieStore.get('currentUser');
+		this.chat.creatorID=this.user.userID;
+		this.chat.friendID=friendID;
+		UserService.createChat(this.chat)
+		.then(
+				function(d){
+					$rootScope.chat=d;
+					$location.path("/goChatPage")
+				},
+				function(errResponse){
+					console.error('Error while starting chat');
+				});
+	};
 }])

@@ -3,6 +3,7 @@ package com.jpro.studentsmeetbackend.testcase;
 import static org.junit.Assert.*;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -10,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import com.jpro.studentsmeetbackend.dao.UserDAO;
+import com.jpro.studentsmeetbackend.model.Friend;
 import com.jpro.studentsmeetbackend.model.Qualification;
 import com.jpro.studentsmeetbackend.model.User;
 
@@ -116,10 +118,17 @@ public class UserDAOTestCase {
 		Assert.assertEquals("setUSerPhotoTestCase", true,flag);
 	}
 	
-	@Test
+	//@Test
 	public void userImageTestCase(){
 		user=userDAO.getUserById("US001");
 		System.out.println(user.getUserImage().length);
+	}
+	
+	@Test
+	public void getUserFriendRequests(){
+		List<Friend> friends=userDAO.getFriendsReqOfUser("ECOOL");
+		Friend f=friends.get(0);
+		System.out.println(f.getFriendId());
 	}
 	
 }

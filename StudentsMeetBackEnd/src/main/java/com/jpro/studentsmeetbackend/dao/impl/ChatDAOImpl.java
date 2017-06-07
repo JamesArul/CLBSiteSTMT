@@ -32,6 +32,9 @@ public class ChatDAOImpl implements ChatDAO {
 			if(chat.getIsPrivateChat()=='Y'){
 				chat.setChatTopic("Private Chat");
 			}
+			if(chat.getIsPrivateChat()=='N'){
+				chat.setFriendID("Open Chat");
+				}			
 			sessionFactory.getCurrentSession().save(chat);
 			return true;
 		}
@@ -108,7 +111,7 @@ public class ChatDAOImpl implements ChatDAO {
 	}
 
 	public List<Chat> getPrivateChatsOfUser(String userID){
-		return sessionFactory.getCurrentSession().createQuery("from Chat where creatorID='"+userID+"'").list();
+		return sessionFactory.getCurrentSession().createQuery("from Chat where creatorID='"+userID+"' or friendID='"+userID+"'").list();
 	}
 	
 	public List<Chat> getOpenChats(){

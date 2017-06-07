@@ -1,0 +1,15 @@
+<div ng-include="'Chat/ChatHome.html'"></div>
+<div ng-controller="ChatController as ctrl">
+<center><h1>{{chat.chatTopic}}</h1></center>
+<button class="btn btn-danger" ng-click="ctrl.quitChat()">Stop Chat</button>
+<form ng-submit="ctrl.addMessage()">
+<input type="text" ng-model="ctrl.chatMsg.chatMsg"><br/>
+<input type="submit" value="Send">
+
+<p ng-repeat="message in chat.chat_Messages | orderBy:'msgDate':true">
+        <time>{{message.msgDate | date:'HH:mm'}}</time>
+        {{message.userID}}
+        <span ng-class="{self: chatMsg.self}">{{message.chatMsg}}</span>
+      </p>
+</form>
+</div>

@@ -63,6 +63,17 @@ app.service('ChatService', ['$http', '$q','$rootScope', function($http, $q,$root
 	                        console.error('Error while getting chat..ChatService');
 	                        return $q.reject(errResponse);
 	                    });
+			},
+			getPrivateChats : function(userID){
+				return $http.get(BASE_URL+'getChatsOfUser/'+userID)
+				.then(
+						function(response){
+	                        return response.data;
+	                    }, 
+	                    function(errResponse){
+	                        console.error('Error while getting chat..ChatService');
+	                        return $q.reject(errResponse);
+	                    });
 			}
 		}
 }])

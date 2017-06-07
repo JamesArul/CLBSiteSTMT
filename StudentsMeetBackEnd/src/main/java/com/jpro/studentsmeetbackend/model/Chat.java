@@ -35,6 +35,8 @@ public class Chat extends BaseDomain {
 	private char reportChat;
 	
 	private String chatTopic;
+	
+	private String friendID;
 
 	public long getChatId() {
 		return chatId;
@@ -82,6 +84,14 @@ public class Chat extends BaseDomain {
 
 	public void setChatTopic(String chatTopic) {
 		this.chatTopic = chatTopic;
+	}
+
+	public String getFriendID() {
+		return friendID;
+	}
+
+	public void setFriendID(String friendID) {
+		this.friendID = friendID;
 	}
 	
 }

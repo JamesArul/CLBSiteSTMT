@@ -123,6 +123,18 @@ app.service('UserService', ['$http', '$q','$rootScope', function($http, $q,$root
 						console.error('Error while getting freinds..UserService');
 						return $q.reject(errResponse);
 					});
-		}		
+		},
+		createChat : function(chat){
+			console.log("Creating chat..UserService");
+			return $http.post(BASE_URL+'createChat/',chat)
+			.then(
+					function(response){
+                        return response.data;
+                    }, 
+                    function(errResponse){
+                        console.error('Error while creating chat..UserService');
+                        return $q.reject(errResponse);
+                    });
+		}
 	}
 	}])
