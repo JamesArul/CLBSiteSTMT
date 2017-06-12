@@ -1,7 +1,0 @@
-<div ng-include="'Common/CommonHeader.html'"></div>
-<div ng-if="isUser">
-<button class="btn btn-warning" ng-click="">View Jobs</button>
-</div>
-<div ng-if="isAdmin">
-<button class="btn btn-warning" ng-click="">Manage Job Applications</button>
-</div>

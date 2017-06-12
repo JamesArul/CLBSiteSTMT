@@ -1,3 +1,0 @@
-<div ng-include="'Common/CommonHeader.html'"></div>
-<div ng-controller="ChatController as ctrl">
-</div>

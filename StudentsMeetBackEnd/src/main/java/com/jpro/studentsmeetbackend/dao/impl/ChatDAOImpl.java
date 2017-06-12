@@ -111,7 +111,15 @@ public class ChatDAOImpl implements ChatDAO {
 	}
 
 	public List<Chat> getPrivateChatsOfUser(String userID){
-		return sessionFactory.getCurrentSession().createQuery("from Chat where creatorID='"+userID+"' or friendID='"+userID+"'").list();
+		List<Chat> privateChats=sessionFactory.getCurrentSession().createQuery("from Chat where creatorID='"+userID+"' or friendID='"+userID+"'").list();
+		for(int i=0;i<privateChats.size();i++)
+		{
+			Chat chat=privateChats.get(i);
+			if(chat.getIsPrivateChat()=='N'){
+				privateChats.remove(chat);
+			}
+		}
+		return privateChats;
 	}
 	
 	public List<Chat> getOpenChats(){

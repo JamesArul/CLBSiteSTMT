@@ -1,0 +1,24 @@
+'user strict';
+app.controller('ChatMsgController',['$scope','ChatMsgService','$location','$rootScope','$cookieStore','$http',
+	function($scope, ChatMsgService, $location, $rootScope,$cookieStore, $http) {
+	console.log("Inside chatController")
+	$scope.messages = [];
+	user=$cookieStore.get('currentUser');
+	  $scope.message ={
+			  userID : "",
+			  message : ""			  
+	  };
+	  $scope.addSocketMessage = function() {
+		  user=$cookieStore.get('currentUser');
+		  $scope.message=user.userID;
+		  ChatMsgService.send($scope.message);
+		    $scope.message = {
+					  userID : "",
+					  message : ""			  
+			  };
+		  };
+
+		  ChatMsgService.receive().then(null, null, function(message) {
+		    $scope.messages.push(message);
+		  });
+}])

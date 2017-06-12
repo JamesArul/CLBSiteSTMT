@@ -1,6 +1,0 @@
-<div ng-controller="BlogController as btrl">
-<center>
-<form ng-submit="btrl.createBlog()">
-</form>
-</center>
-</div>

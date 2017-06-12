@@ -60,7 +60,7 @@ public class ChatDAOTestCase {
 		Assert.assertEquals("createChatTestCases", true, flag);
 	}
 	
-	@Test
+	//@Test
 	public void getAllChatTestCase(){
 		int flag=chatDAO.getAllChat().size();
 		Assert.assertEquals("createChatTestCases", 1, flag);
@@ -82,6 +82,12 @@ public class ChatDAOTestCase {
 	public void getAllReportedChatTestCase(){
 		int flag=chatDAO.getAllReportedChats().size();
 		Assert.assertEquals("getAllReportedChatTestCase", 1, flag);
+	}
+	
+	@Test
+	public void getPrivateChats(){
+		int flag=chatDAO.getPrivateChatsOfUser("US002").size();
+		Assert.assertEquals("getPrivateChats", 1, flag);
 	}
 
 }

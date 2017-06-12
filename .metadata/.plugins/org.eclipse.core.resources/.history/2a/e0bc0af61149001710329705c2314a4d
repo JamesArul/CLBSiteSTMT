@@ -1,3 +1,0 @@
-<div ng-controller="ChatController as ctrl">
-<h1><center>List of Avtive Open Chats</center></h1>
-</div>

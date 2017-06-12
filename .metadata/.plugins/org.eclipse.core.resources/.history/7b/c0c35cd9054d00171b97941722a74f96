@@ -1,0 +1,15 @@
+package com.jpro.studentsmeetcontrollerrest.controller;
+
+public class OutputMessage {
+	
+	private int id;
+	
+	private String userID;
+	
+	private String message;
+	
+	public Message(){
+		
+	}
+
+}

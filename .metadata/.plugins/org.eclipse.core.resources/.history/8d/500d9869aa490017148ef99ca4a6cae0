@@ -1,6 +1,0 @@
-<div ng-include="'Chat/ChatHome.html'"></div>
-<div ng-controller="ChatController as ctrl">
-<form ng-sumbit="ctrl.createChat()">
-
-</form>
-</div>

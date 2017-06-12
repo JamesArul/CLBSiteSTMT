@@ -1,0 +1,4 @@
+<div ng-include="'SocketChat/ChatHome.html'"></div>
+<center><h1>Chat using Sockets</h1></center>
+<form ng-submit="addSocketMessage()">
+</form>

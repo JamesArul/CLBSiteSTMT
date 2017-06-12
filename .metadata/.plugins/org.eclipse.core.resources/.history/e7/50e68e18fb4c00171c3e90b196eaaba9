@@ -1,0 +1,8 @@
+<div ng-include="'SocketChat/ChatHome.html'"></div>
+<center><h1>Chat using Sockets</h1></center>
+<div ng-controller="ChatMsgController as ctrl">
+<form ng-submit="addSocketMessage()">
+<input type="text" ng-model=message />
+<input type="submit" value="Send">
+</form>
+</div>

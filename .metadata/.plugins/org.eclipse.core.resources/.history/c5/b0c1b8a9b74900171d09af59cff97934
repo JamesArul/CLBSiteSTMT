@@ -1,4 +1,0 @@
-<div ng-include="'Chat/ChatHome.html'"></div>
-<div ng-controller="ChatController as ctrl">
-<center><h2>Your Friends</h2></center>
-</div>

@@ -1,0 +1,7 @@
+package com.jpro.studentsmeetcontrollerrest.controller;
+
+public class OutputMessage {
+	
+	
+
+}

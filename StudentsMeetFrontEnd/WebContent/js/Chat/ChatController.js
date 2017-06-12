@@ -96,7 +96,7 @@ app.controller('ChatController',['$scope','ChatService','$location','$rootScope'
 		.then(
 				function(d){
 					$rootScope.chat=d;	
-					$location.path("/goChatPage")
+					$location.path("/goSocketChat")
 				},
 				function(errResponse){
 					console.error('Error while getting chat');

@@ -1,4 +1,0 @@
-<div ng-controller="UserController as ctrl">
-<form ng-submit="ctrl.login()" class="form-horizontal">
-</form>
-</div>

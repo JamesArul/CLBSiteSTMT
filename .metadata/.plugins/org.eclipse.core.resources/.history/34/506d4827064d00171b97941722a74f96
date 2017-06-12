@@ -1,0 +1,19 @@
+package com.jpro.studentsmeetcontrollerrest.controller;
+
+public class Message {
+	
+private int id;
+	
+	private String userID;
+	
+	private String message;
+	
+	public Message(){	
+	}
+	
+	public Message(int id,String userid,String message){
+		this.id=id;
+		this.userID=userid;
+		this.message=message;
+	}
+}

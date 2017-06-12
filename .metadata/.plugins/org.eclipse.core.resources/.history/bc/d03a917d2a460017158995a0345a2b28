@@ -1,3 +1,0 @@
-<div ng-controller="BlogController as btrl">
-<center><h1>{{blog.blogName}}</h1></center>
-</div>

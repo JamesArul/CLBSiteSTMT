@@ -164,6 +164,10 @@ app.config(function($routeProvider) {
 		templateUrl:'Admin/ManageChat.html',
 		controller:'ChatController'
 	})
+	.when('/goSocketChat',{
+		templateUrl:'SocketChat/ChatHome.html',
+		controller:'ChatMsgController'
+	})
 	.otherwise({
 		redirectTo : '/'
 	});
